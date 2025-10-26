@@ -20,13 +20,17 @@
   />
 
   
-  <title>Mobiustransforms in Hamiltonian Mechanics - William Cárdenas</title>
+  <title>Landau and the dictatorship of the representation invariants - William Cárdenas</title>
 
   
   <meta name="theme-color" />
 
-  <meta name="description" content="Suddenly at a lecture where we were mapping a periodic system in phase space to something easier with HJ, I wondered if we equivalently could do it with a tool from complex analysis.
-Phase space is equipped with a symplectic 2-form $\omega = dq \wedge dp$ which has to be preserved if we want a valid canonical transformation. So the question naturally arises, under what conditions do Mobius transforms preserve this symplectic structure if at all?" />
+  <meta name="description" content="Strip away degrees of freedom, align with symmetry and achieve the dictatorship of the representation invariants.
+I was attempting to recreate this paper by hand &hellip;
+
+(courtesy: Collected Papers of Landau)
+&hellip; and I remembered a recent article https://arxiv.org/pdf/2503.04778 on the specific method of Landau, and just was curious to test their hypothesis.
+The paper &ldquo;ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES&rdquo; was written right after matrix mechanics. Spectroscopy of diatomic molecules had a well developed empirical band theory but needed a proper foundation in QM." />
   <meta name="author" content="William Cárdenas" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
 
   
@@ -145,27 +149,38 @@ Phase space is equipped with a symplectic 2-form $\omega = dq \wedge dp$ which h
       class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
     ><article>
   <header class="mb-14">
-    <h1 class="my-0! pb-2.5">Mobiustransforms in Hamiltonian Mechanics</h1><div class="text-xs antialiased opacity-60"><time>Oct 26, 2025</time></div></header>
+    <h1 class="my-0! pb-2.5">Landau and the dictatorship of the representation invariants</h1><div class="text-xs antialiased opacity-60"><time>Oct 26, 2025</time></div></header>
 
-  <section><p>Suddenly at a lecture where we were mapping a periodic system in phase space to something easier with HJ, I wondered if we equivalently could do it with a tool from complex analysis.</p>
-<p>Phase space is equipped with a symplectic 2-form $\omega = dq \wedge dp$ which has to be preserved if we want a valid canonical transformation. So the question naturally arises, under what conditions do Mobius transforms preserve this symplectic structure if at all?</p>
-<p>Typically we know that MT preserves angles, not area. If we let $z = q + ip$, then $\omega = idz \wedge d \overline{z}$, where $f^{*} \omega = \omega$.</p>
-<h3 id="why-mt-inversion-fails-in-flat-symplectic-geometry">Why MT inversion fails in flat symplectic geometry.</h3>
-<p>Take the simplest example, a dimensionless harmonic oscillator $H(q,p) = q^2 + p^2$, and let $z=q+ip$. Attempt the transform of $w = \frac{1}{z} \implies H = \frac{1}{\mid w \mid ^&quot;}$. Now, circular orbits $\mid z \mid$ are mapped to circles/lines on the $w$-plane.</p>
-<p>What happens to the $2$-form? $dw = -\frac{1}{z^2} dz$ and $d \overline{w} = - \frac{1}{\overline{z}^2} d\overline{z}$.</p>
-<p>$$
-i dw \wedge d \overline{w} ? \frac{1}{\mid z \mid^4}i dz \wedge d \overline{z}
-$$
-We have rescaled this by a factor of $\frac{1}{\mid z \mid^4}$ so the Jacobi determinant is not 1 hence not canonical.</p>
-<p>=&gt; <em>Changing phase space. Introduce hyperbolic geometry</em></p>
-<p>&hellip;&hellip;.</p>
-<p>Result: MT are not canonical in &ldquo;flat&rdquo; phase space, but if we give it a hyperbolic symplectic structure of the Poincare disk the SU(1,1) MT is canonical.</p>
+  <section><p><em>Strip away degrees of freedom, align with symmetry and achieve the dictatorship of the representation invariants.</em></p>
+<p>I was attempting to recreate this paper by hand &hellip;</p>
+<p><img src="/images/first-page.png" alt="Landua page">
+(courtesy: Collected Papers of Landau)</p>
+<p>&hellip; and I remembered a recent article <a href="https://arxiv.org/pdf/2503.04778">https://arxiv.org/pdf/2503.04778</a> on the specific method of Landau, and just was curious to test their hypothesis.</p>
+<p><strong>The paper &ldquo;ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES&rdquo; was written right after matrix mechanics. Spectroscopy of diatomic molecules had a well developed empirical band theory but needed a proper foundation in QM.</strong></p>
+<p><em>What did Landau accomplish? Showing that QM can fully reproduce the rotational-vibrational spectra and field effects of diatomic molecules, grounding an empirical band theory in rigorous QM principles.</em></p>
+<p>Now, is this paper the first sign of his geometric reductionism?</p>
+<p>Just barely getting through the first page I noticed that it takes quite a toll on your working memory and crow. Skill issue.</p>
+<h4 id="step-1---transforming-the-h-in-order-to-reduce-the-problem-to-1d">Step 1 - Transforming the H in order to reduce the problem to 1D</h4>
+<p>Typically we have $R = \frac{M_1R_1 + M_2 R_2}{M_1+M_2}$, and let $r = r_2 - r_1$. And we may introduce $M = M_1 + M_2$ for less load on your crow.</p>
+<p>Generally $p = -i\hbar \nabla$, so $$</p>
+<p>Now watch what happens, we have separated the motion in to COM and rel coordinates, and now Landau just says be gone with it, i.e., throw away the motion of COM. This is a literal reduction of phase space.</p>
+<h4 id="step-2---go-to-spherical-coordinates-to-use-motion-in-a-centrally-symmetric-field">Step 2 - Go to spherical coordinates to use motion in a centrally symmetric field</h4>
+<p>Landau says &ldquo;polar&rdquo; here which is interesting.</p>
+<p>Now, why express the Hamiltonian in $p_R, p_\theta$ and $p_\varphi$? Because in the language of Heisenberg-Born-Jordan, coordinates and momenta are the fundamental objects
+with commutators $[q,p] = i \hbar$. Think about it, if he would have kept the Laplacian standard, it would have looked like something Schrodinger-esque, and we are too early in history for that. Once in this lovely p-notation we can derive selection rules from angular momentum algebra.</p>
+<h4 id="step-3---going-back-to-descartes">Step 3 - Going back to Descartes</h4>
+<p>This was super confusing first. Why do all of this endless algebra just to transform back to cartesian coordinates?</p>
+<p><em>Because spectroscopy does not only care about $M^2$ but for projection on axes like M_z and how they change under Zeeman/Stark effects. Those are usually written in lab frames.</em></p>
 </section>
 
   <nav
     class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
-  ><a class="ltr:pr-3 rtl:pl-3" href="http://localhost:1313/posts/landau/"
-      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>Landau and the dictatorship of the representation invariants</span></a
+  ><a class="ltr:pr-3 rtl:pl-3" href="http://localhost:1313/posts/quadratics/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>Quadratics</span></a
+    ><a
+      class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
+      href="http://localhost:1313/posts/mobius/"
+      ><span>Mobiustransforms in Hamiltonian Mechanics</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
     ></nav></article></main>
     <script>
 window.MathJax = {

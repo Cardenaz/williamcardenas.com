@@ -1,4 +1,8 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'William Cardenas'
+title = 'William Cárdenas'
 theme = "paper" 
+
+
+[params]
+  customCSS = ["css/custom.css"]

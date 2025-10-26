@@ -1,13 +1,8 @@
 +++
 date = '2025-10-26T20:19:32+01:00'
 draft = true
-title = 'Mobius Transformations in HM'
+title = 'Mobiustransforms in Hamiltonian Mechanics'
 +++
-
-
-
-
-# Mobiustransforms in Hamiltonian Mechanics
 
 
 Suddenly at a lecture where we were mapping a periodic system in phase space to something easier with HJ, I wondered if we equivalently could do it with a tool from complex analysis. 
@@ -27,6 +22,11 @@ $$
 i dw \wedge d \overline{w} ? \frac{1}{\mid z \mid^4}i dz \wedge d \overline{z}
 $$
 We have rescaled this by a factor of $\frac{1}{\mid z \mid^4}$ so the Jacobi determinant is not 1 hence not canonical. 
+
+=> *Changing phase space. Introduce hyperbolic geometry*
+
+
+.......
 
 Result: MT are not canonical in "flat" phase space, but if we give it a hyperbolic symplectic structure of the Poincare disk the SU(1,1) MT is canonical. 
 
