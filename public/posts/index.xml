@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on William Cardenas</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on William Cardenas</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Oct 2025 20:19:32 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mobius Transformations in HM</title>
+      <link>http://localhost:1313/posts/mobius/</link>
+      <pubDate>Sun, 26 Oct 2025 20:19:32 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mobius/</guid>
+      <description>&lt;h1 id=&#34;mobiustransforms-in-hamiltonian-mechanics&#34;&gt;Mobiustransforms in Hamiltonian Mechanics&lt;/h1&gt;&#xA;&lt;p&gt;Suddenly at a lecture where we were mapping a periodic system in phase space to something easier with HJ, I wondered if we equivalently could do it with a tool from complex analysis.&lt;/p&gt;&#xA;&lt;p&gt;Phase space is equipped with a simple symplectic form $dq \wedge dp$ which has to be preserved if we want a valid canonical transformation. So the question naturally arises, under what conditions do Mobius transforms preserve this symplectic structure if at all?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
