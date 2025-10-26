@@ -6,3 +6,8 @@ theme = "paper"
 
 [params]
   customCSS = ["css/custom.css"]
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
