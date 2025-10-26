@@ -1,6 +1,6 @@
 +++
 date = '2025-10-26T21:00:43+01:00'
-draft = true
+draft = false
 title = "Landau and the dictatorship of the representation invariants"
 +++
 
@@ -41,6 +41,9 @@ Now, why express the Hamiltonian in $p_R, p_\theta$ and $p_\varphi$? Because in 
 with commutators $[q,p] = i \hbar$. Think about it, if he would have kept the Laplacian standard, it would have looked like something Schrodinger-esque, and we are too early in history for that. Once in this lovely p-notation we can derive selection rules from angular momentum algebra. 
 
 #### Step 3 - Going back to Descartes 
+![Landua page](/images/transform.png)
+
+
 This was super confusing first. Why do all of this endless algebra just to transform back to cartesian coordinates? 
 
 *Because spectroscopy does not only care about $M^2$ but for projection on axes like M_z and how they change under Zeeman/Stark effects. Those are usually written in lab frames.*

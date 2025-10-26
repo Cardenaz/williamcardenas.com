@@ -5,6 +5,15 @@ theme = "paper"
 
 
 
+[params]
+  name = ''
+  bio = '...'
+  avatar = 'https://williamcardenas.com/images/avatar.png'
+
+
+
+
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
