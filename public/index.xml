@@ -6,14 +6,21 @@
     <description>Recent content on William Cárdenas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Oct 2025 19:42:21 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 00:00:21 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Misperception</title>
+      <link>http://localhost:1313/posts/misperception/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:21 +0100</pubDate>
+      <guid>http://localhost:1313/posts/misperception/</guid>
+      <description>&lt;p&gt;Misperception is misinterpretation.&lt;/p&gt;&#xA;&lt;p&gt;I can &amp;ldquo;see&amp;rdquo; that my eyes don&amp;rsquo;t work.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Thales to Dewey - Application to St. Augustine</title>
       <link>http://localhost:1313/posts/thales-to-dewey/</link>
       <pubDate>Mon, 27 Oct 2025 19:42:21 +0100</pubDate>
       <guid>http://localhost:1313/posts/thales-to-dewey/</guid>
-      <description>&lt;h3 id=&#34;what-can-we-learn-from-st-augustine&#34;&gt;What can we learn from St. Augustine?&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/augustine.png&#34; alt=&#34;augustine&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The first good thing about Augustine is that he was &lt;em&gt;not&lt;/em&gt; a skeptic, i.e., he defended the possibility of &lt;em&gt;knowledge&lt;/em&gt;. But what struck me is that he did not do it solely on logical grounds but on moral ones. What does that mean? For Augustine, &amp;ldquo;happiness&amp;rdquo; seems to be the goal, and since the skeptic by his own construction is someone who searches without any possibility of discovery, he cannot be happy. In fact, we would say that he is rather silly.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;em&gt;&amp;ldquo;Do you know that you exist? If he so much hears the question there can be no doubt about the answer.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-can-we-learn-from-st-augustine&#34;&gt;What can we learn from St. Augustine?&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/augustine.png&#34; alt=&#34;augustine&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;reason&#34;&gt;Reason&lt;/h4&gt;&#xA;&lt;p&gt;The first good thing about Augustine is that he was &lt;em&gt;not&lt;/em&gt; a skeptic, i.e., he defended the possibility of &lt;em&gt;knowledge&lt;/em&gt;. But what surprised me was that he did not do it solely on logical grounds but on moral ones. What does that mean? For Augustine, &amp;ldquo;happiness&amp;rdquo; seems to be the goal, and since the skeptic by his own construction is someone who searches without any possibility of discovery, he cannot be happy. In fact, we would say that he is rather silly. In other words, the skeptic sets himself up for inevitable failure since his tool of survival (reason) leads nowhere.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Landau and the dictatorship of the representation invariants</title>
