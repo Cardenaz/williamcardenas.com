@@ -15,11 +15,7 @@ I was attempting to recreate this paper by hand ...
 
 **The paper "ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES" was written right after matrix mechanics. Spectroscopy of diatomic molecules had a well developed empirical band theory but needed a proper foundation in QM.**
 
-*What did Landau accomplish? Showing that QM can fully reproduce the rotational-vibrational spectra and field effects of diatomic molecules, grounding an empirical band theory in rigorous QM principles.*
-
 Now, is this paper the first sign of his geometric reductionism? 
-
-Just barely getting through the first page I noticed that it takes quite a toll on your working memory and crow. Skill issue. 
 
 
 #### Step 1 - Transforming the H in order to reduce the problem to 1D
@@ -27,10 +23,12 @@ Just barely getting through the first page I noticed that it takes quite a toll 
 
 Typically we have $R = \frac{M_1R_1 + M_2 R_2}{M_1+M_2}$, and let $r = r_2 - r_1$. And we may introduce $M = M_1 + M_2$ for less load on your crow. 
 
+
+
 Generally $p = -i\hbar \nabla$, so $$
 
 
-Now watch what happens, we have separated the motion in to COM and rel coordinates, and now Landau just says be gone with it, i.e., throw away the motion of COM. This is a literal reduction of phase space.
+Now watch what happens, we have separated the motion in to COM and rel coordinates, and now Landau just says be gone with it, i.e., throw away the motion of COM. This is a literal reduction of phase space. But it is also standard practice now and reduction of phase space is something that always has been there ever since Jacobi. Hence I don't see anything distinctive about this. 
 
 
 
