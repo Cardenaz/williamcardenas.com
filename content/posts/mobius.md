@@ -1,6 +1,6 @@
 +++
 date = '2025-10-26T20:19:32+01:00'
-draft = true
+draft = false
 title = 'Mobiustransforms in Hamiltonian Mechanics'
 +++
 

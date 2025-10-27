@@ -47,3 +47,5 @@ with commutators $[q,p] = i \hbar$. Think about it, if he would have kept the La
 This was super confusing first. Why do all of this endless algebra just to transform back to cartesian coordinates? 
 
 *Because spectroscopy does not only care about $M^2$ but for projection on axes like M_z and how they change under Zeeman/Stark effects. Those are usually written in lab frames.*
+
+... 
