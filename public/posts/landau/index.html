@@ -38,7 +38,7 @@ The paper &ldquo;ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES&rdquo; was w
 
   <link rel="preload" as="image" href="https://williamcardenas.com/images/avatar.png" />
 
-  
+  <link rel="preload" as="image" href="http://localhost:1313/twitter.svg" /><link rel="preload" as="image" href="http://localhost:1313/github.svg" />
 
   <script
     defer
@@ -142,7 +142,24 @@ The paper &ldquo;ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES&rdquo; was w
 
   <div
     class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
-  >
+  ><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/WilliamCar96"
+        target="_blank"
+        rel="me"
+      >twitter</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/cardenaz"
+        target="_blank"
+        rel="me"
+      >github</a>
+    </nav>
   </div>
 </header>
 <main
@@ -172,9 +189,18 @@ with commutators $[q,p] = i \hbar$. Think about it, if he would have kept the La
 <p><img src="/images/transform.png" alt="Landua page"></p>
 <p>This was super confusing first. Why do all of this endless algebra just to transform back to cartesian coordinates?</p>
 <p><em>Because spectroscopy does not only care about $M^2$ but for projection on axes like M_z and how they change under Zeeman/Stark effects. Those are usually written in lab frames.</em></p>
+<p>&hellip;</p>
 </section>
 
-  </article></main>
+  <nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  ><a class="ltr:pr-3 rtl:pl-3" href="http://localhost:1313/posts/quadratics/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>Quadratics</span></a
+    ><a
+      class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
+      href="http://localhost:1313/posts/mobius/"
+      ><span>Mobiustransforms in Hamiltonian Mechanics</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    ></nav></article></main>
     <script>
 window.MathJax = {
   tex: {

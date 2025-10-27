@@ -5,11 +5,17 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-10-26T21:09:48+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/quadratics/</loc>
+    <lastmod>2025-10-26T21:09:48+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-10-26T21:09:48+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/landau/</loc>
     <lastmod>2025-10-26T21:00:43+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/mobius/</loc>
+    <lastmod>2025-10-26T20:19:32+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>

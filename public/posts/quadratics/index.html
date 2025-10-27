@@ -31,9 +31,9 @@
   
   <link rel="preload" as="image" href="http://localhost:1313/theme.png" />
 
-  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/7b3aa4ee95b7ae498925c317cf48a93f?s=160&amp;d=identicon" />
+  <link rel="preload" as="image" href="https://williamcardenas.com/images/avatar.png" />
 
-  
+  <link rel="preload" as="image" href="http://localhost:1313/twitter.svg" /><link rel="preload" as="image" href="http://localhost:1313/github.svg" />
 
   <script
     defer
@@ -137,7 +137,24 @@
 
   <div
     class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
-  >
+  ><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/WilliamCar96"
+        target="_blank"
+        rel="me"
+      >twitter</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/cardenaz"
+        target="_blank"
+        rel="me"
+      >github</a>
+    </nav>
   </div>
 </header>
 <main

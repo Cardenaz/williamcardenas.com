@@ -5,7 +5,7 @@ title = 'Mobiustransforms in Hamiltonian Mechanics'
 +++
 
 
-At a lecture on Hamliton-Jacobi method of solving EOM, specifically where there is some periodic motion and we want to flatten it to a constant horizontal line in phase space, I wondered if we equivalently could do it with a tool from complex analysis. 
+At a lecture on Hamliton-Jacobi method for solving EOM, specifically where there is some periodic motion and we want to flatten it to a constant horizontal line in phase space, I wondered if we equivalently could do it with a tool from complex analysis. 
 
 Phase space is equipped with a symplectic 2-form $\omega = dq \wedge dp$ which has to be preserved if we want a valid canonical transformation. So the question naturally arises, under what conditions do Mobius transforms preserve this symplectic structure if at all? 
 

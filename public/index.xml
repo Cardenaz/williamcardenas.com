@@ -6,14 +6,28 @@
     <description>Recent content on William Cárdenas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Oct 2025 21:00:43 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 26 Oct 2025 21:09:48 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quadratics</title>
+      <link>http://localhost:1313/posts/quadratics/</link>
+      <pubDate>Sun, 26 Oct 2025 21:09:48 +0100</pubDate>
+      <guid>http://localhost:1313/posts/quadratics/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Landau and the dictatorship of the representation invariants</title>
       <link>http://localhost:1313/posts/landau/</link>
       <pubDate>Sun, 26 Oct 2025 21:00:43 +0100</pubDate>
       <guid>http://localhost:1313/posts/landau/</guid>
       <description>&lt;p&gt;&lt;em&gt;Strip away degrees of freedom, align with symmetry and achieve the dictatorship of the representation invariants.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was attempting to recreate this paper by hand &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/first-page.png&#34; alt=&#34;Landua page&#34;&gt;&#xA;(courtesy: Collected Papers of Landau)&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip; and I remembered a recent article &lt;a href=&#34;https://arxiv.org/pdf/2503.04778&#34;&gt;https://arxiv.org/pdf/2503.04778&lt;/a&gt; on the specific method of Landau, and just was curious to test their hypothesis.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The paper &amp;ldquo;ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES&amp;rdquo; was written right after matrix mechanics. Spectroscopy of diatomic molecules had a well developed empirical band theory but needed a proper foundation in QM.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mobiustransforms in Hamiltonian Mechanics</title>
+      <link>http://localhost:1313/posts/mobius/</link>
+      <pubDate>Sun, 26 Oct 2025 20:19:32 +0100</pubDate>
+      <guid>http://localhost:1313/posts/mobius/</guid>
+      <description>&lt;p&gt;At a lecture on Hamliton-Jacobi method for solving EOM, specifically where there is some periodic motion and we want to flatten it to a constant horizontal line in phase space, I wondered if we equivalently could do it with a tool from complex analysis.&lt;/p&gt;&#xA;&lt;p&gt;Phase space is equipped with a symplectic 2-form $\omega = dq \wedge dp$ which has to be preserved if we want a valid canonical transformation. So the question naturally arises, under what conditions do Mobius transforms preserve this symplectic structure if at all?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
