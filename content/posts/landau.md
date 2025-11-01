@@ -21,12 +21,103 @@ Now, is this paper the first sign of his geometric reductionism?
 #### Step 1 - Transforming the H in order to reduce the problem to 1D
 
 
-Typically we have $R = \frac{M_1R_1 + M_2 R_2}{M_1+M_2}$, and let $r = r_2 - r_1$. And we may introduce $M = M_1 + M_2$ for less load on your crow. 
+Letting capital letters denote the nuclei and small letters the electrons, we are given: 
+
+$$
+\vec{r} = r - \frac{M_1R_1 + M_2 R_2}{M_1+M_2} \tag{1}
+$$
+$$
+R = R_2 - R_1 \tag{2}
+$$
+$$
+C =  \frac{m \sum r + M_1R_1 + M_2 R_2}{ \sum m +M_1+M_2} \tag{3}
+$$
+
+And instead of having $\frac{M_1R_1 + M_2 R_2}{M_1+M_2}$, let's introduce 
+$$
+R_N = \frac{M_1R_1 + M_2 R_2}{M_1+M_2} \tag{4}
+$$ 
+which is the center of mass frame of the nuclei. The expression $\vec{r} = r - R_N$ is then the electron position measured from the nuclear COM. I would prefer if he denoted it with $\vec{r}_i$ and $r_i$, indicating that we take the position of each electron and subtract the distance from the nucleus. And especially strange since we have the summation sign for the mass but not for the radius vectors. 
+
+To grasp equation (1) further, imagine a diatomic molecule consisisting of flourine. Each flourine atom has 9 electrons which means that $F_2$ has 18 total electrons to think about. Then the transformation $\vec{r}_i = r_i - R_N$ has to be done for every electron, i.e., we get 18 relative coordinates. What this does is to change the reference frame from the lab frame to the nuclei's center of mass frame for every electron.
 
 
+Once we get the transformed variables we want to transform the Hamiltonian. What should be our first step? Well I like to start with the momenta. Generally $\hat{p} = -i \hbar \nabla$ where $\nabla = (\frac{\partial}{\partial x}, \frac{\partial}{\partial y},\frac{\partial}{\partial z})$. So we need to express $\nabla_{R_1}$, $\nabla_{R_2}$ and $\nabla_{r}$ in $C, R$ and $\vec{r_i}$. 
 
-Generally $p = -i\hbar \nabla$, so $$
 
+We start by rewriting $R_1$ and $R_2$ in terms of the new variables. For $R_1$ we plug $R_2 = R+R_1$ into eq. 4: 
+
+$$
+R_N =  \frac{ M_1R_1 + M_2(R+R_1)}{+M_1+M_2} =  \frac{R_1(M_1+M_2)+M_2R}{M_1+M_2} 
+$$
+
+$$
+= R_1 + \frac{M_2}{M_1+M_2}R \leftrightarrow R_1 = R_N - \frac{M_2}{M_1+M_2}R
+$$
+
+
+Similarly for $R_2$ we do the same procedure but with $R_1 = R_2-R$ into eq. 4
+$$
+R_N =  \frac{ M_1(R_2-R) + M_2 R_2}{+M_1+M_2} =  \frac{R_2(M_1+M_2)-M_1R}{M_1+M_2} 
+$$
+
+$$
+= R_2 - \frac{M_1}{M_1+M_2}R \leftrightarrow R_2 = R_N + \frac{M_1}{M_1+M_2}R
+$$
+
+
+And for the electron lab frame vector we have $r = \vec{r} + R_N$ from eq. (1).
+
+The multivariable chain rule for a fucntion $f(x(q))$: $\frac{\partial f}{\partial q_i} = \sum_j \frac{\partial x_j}{\partial q_i} \frac{\partial f}{\partial x_j} $
+
+Let's compute $\nabla_{R_1}$: 
+$$
+\nabla_{R_1} = \frac{\partial R_N}{\partial R_1} \cdot \nabla_{R_N} + \frac{\partial R}{\partial R_1} \cdot \nabla_R
+$$
+$$
+= \frac{M_1}{M_1+M_2} \nabla_{R_N} - \nabla_R
+$$
+
+
+and $\nabla_{R_2}$: 
+$$
+\nabla_{R_2} = \frac{\partial R_N}{\partial R_2} \cdot \nabla_{R_N} + \frac{\partial R}{\partial R_2} \cdot \nabla_R
+$$
+$$
+= \frac{M_2}{M_1+M_2} \cdot \nabla_{R_N} + \nabla_{R}
+$$
+
+and for $\nabla_{r} = \nabla_{\vec{r}_i}$.
+
+
+Now let us finish the job by replacing $R_N$ with $C$ and $\vec{r}$
+
+From eq. (3) 
+$$
+C = \frac{m \sum (\vec{r}+R_N) + (M_1+M_2)R_N}{\sum m + M_1+M_2} 
+$$
+$$
+ = \frac{m \sum \vec{r} + (M_1+M_2+nm)R_N}{\sum m + M_1+M_2} \leftrightarrow R_N = \frac{C(\sum m + M_1+M_2) - m \sum \vec{r}}{M_1+M_2+nm}
+$$
+$$
+\leftrightarrow R_N = C - \frac{m}{M_1+M_2+nm} \sum \vec{r}
+$$
+
+$\nabla_{R_N} = \frac{\partial C}{\partial R_n} \cdot \nabla_C + \frac{\partial \vec{r}}{\partial R_n} \cdot \nabla_{\vec{r}_i}$
+
+$$
+= \nabla_C - \nabla_{\vec{r}_i}
+$$
+
+
+So 
+$$
+\frac{M_1}{M_1+M_2}(\nabla_C - \nabla_{\vec{r}_i}) - \nabla_R
+$$
+
+$$
+\frac{M_2}{M_1+M_2}(\nabla_C - \nabla_{\vec{r}_i}) + \nabla_R
+$$
 
 Now watch what happens, we have separated the motion in to COM and rel coordinates, and now Landau just says be gone with it, i.e., throw away the motion of COM. This is a literal reduction of phase space. But it is also standard practice now and reduction of phase space is something that always has been there ever since Jacobi. Hence I don't see anything distinctive about this. 
 
