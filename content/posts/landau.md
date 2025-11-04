@@ -119,6 +119,65 @@ $$
 \frac{M_2}{M_1+M_2}(\nabla_C - \nabla_{\vec{r}_i}) + \nabla_R
 $$
 
+Now let's define the momentum operators $P_C = -i \hbar \nabla_C$, $P_r = -i \hbar \nabla_{r}$ and $P_R = -i \hbar \nabla_R$. We know from the presented Hamiltonian that the original momentum operators are defined as: 
+
+$$
+P_1 = -i \hbar \nabla_{R_1}
+$$
+$$
+P_2 = -i \hbar \nabla_{R_2}
+$$
+
+Computing $P_1$: 
+
+$$
+\hat{P_1} = -i \hbar \nabla_{R_1} = -i \hbar (\frac{M_1}{M_1+M_2}(\nabla_C - \nabla_{\vec{r}_i}) - \nabla_R)
+$$
+
+$$
+=   -i \hbar (\frac{M_1}{M_1+M_2}(-\frac{P_C}{i \hbar} + \frac{P_r}{i \hbar}) + \frac{P_R}{i \hbar}) = \frac{M_1}{M_1+M_2}(P_C-P_r)-P_R
+$$
+
+and similarly for $P_2$ we get 
+$$
+P_2 = -i \hbar \nabla_{R_2} = \frac{M_2}{M_1+M_2}(P_C-P_r)+P_{R}
+$$
+
+Now we can compute the squares $P^2_1$ and $P^2_2$: 
+
+$$
+P^2_1 = (\frac{M_1}{M_1+M_2}(P_C-P_r)-P_R)^2 =
+$$
+
+$$
+= (\frac{M_1}{M_1+M_2})^2 (P_C^2-2P_C P_r + P_R^2) - \frac{2M_1}{M_1+M_2}(P_C-P_r)P_R+P_R^2
+$$
+
+and $P^2_2$:
+
+$$
+P^2_2 = (\frac{M_2}{M_1+M_2}(P_C-P_r)+P_{R})^2 = 
+$$
+
+$$
+= (\frac{M_2}{M_1+M_2})^2 (P_C^2-2P_C P_r + P_R^2) + \frac{2M_2}{M_1+M_2}(P_C-P_r)P_R+P_R^2
+$$
+
+
+Kinetic energy is $T = \frac{P_1^2}{2M_1} +\frac{P_2^2}{2M_2}$, define $\alpha = \frac{M_1}{M_1+M_2}$ and $\beta = \frac{M_2}{M_1+M_2}$
+
+
+$$
+T = \frac{1}{2M_1}[\alpha^2 P^2_C - 2\alpha^2 P_C P_r + \alpha^2 P^2_r - 2\alpha P_CP_R + 2\alpha P_rP_R + P^2_R + ...
+$$
+
+$$
+... + \frac{1}{2M_2}[\beta^2 P^2_C - 2\beta^2 P_C P_r + \beta^2 P^2_r + 2\beta P_CP_R - 2\beta P_rP_R + P^2_R
+$$
+
+
+
+
 Now watch what happens, we have separated the motion in to COM and rel coordinates, and now Landau just says be gone with it, i.e., throw away the motion of COM. This is a literal reduction of phase space. But it is also standard practice now and reduction of phase space is something that always has been there ever since Jacobi. Hence I don't see anything distinctive about this. 
 
 
