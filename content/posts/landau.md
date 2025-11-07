@@ -109,6 +109,7 @@ $$
 = \nabla_C - \nabla_{\vec{r}_i}
 $$
 
+(Technically $\nabla_{R_N} = \nabla_C - \frac{m}{M_1+M_2+nm} \sum_{j=1} \nabla_{\vec{r}_j}$ since we have multiple ones.)
 
 So 
 $$
@@ -175,10 +176,52 @@ $$
 ... + \frac{1}{2M_2}[\beta^2 P^2_C - 2\beta^2 P_C P_r + \beta^2 P^2_r + 2\beta P_CP_R - 2\beta P_rP_R + P^2_R
 $$
 
+Collecting terms we see that
 
+$$
+P_C^2 [\frac{1}{2M_1} \frac{M_1^2}{(M_1+M_2)^2} + \frac{1}{2M_2}\frac{M_2^2}{(M_1+M_2)^2}] = \frac{1}{2(M_1+M_2)}P_C^2
+$$
+$$
+P_CP_r [-\frac{1}{2M_1}2\frac{M_1^2}{(M_1+M_2)^2} -\frac{1}{2M_2}2\frac{M_2^2}{(M_1+M_2)^2}] = -\frac{1}{M_1+M_2}P_C P_r
+$$
+$$
+P_r^2 [\frac{1}{2M_1}2\frac{M_1^2}{(M_1+M_2)^2} + \frac{1}{2M_2}2\frac{M_1^2}{(M_2+M_2)^2}] = \frac{1}{2(M_1+M_2)}P_r^2
+$$
+$$
+P_CP_R [-\frac{1}{2M_1}*2\frac{M_1}{(M_1+M_2)}+\frac{1}{2M_2}*2\frac{M_2}{(M_1+M_2)}] = 0
+$$
+$$
+P_rP_R[-\frac{1}{2M_1}*2\frac{M_1}{(M_1+M_2)}+\frac{1}{2M_2}*2\frac{M_2}{(M_1+M_2)}] = 0
+$$
 
+$$
+P_R^2[\frac{1}{2M_1} + \frac{1}{2M_2}] = \frac{M_1+M_2}{2*M_1 * M_2} P_R^2
+$$
 
-Now watch what happens, we have separated the motion in to COM and rel coordinates, and now Landau just says be gone with it, i.e., throw away the motion of COM. This is a literal reduction of phase space. But it is also standard practice now and reduction of phase space is something that always has been there ever since Jacobi. Hence I don't see anything distinctive about this. 
+Note that the cross electron-nuclear momentum dies. The simplified result for the nuclear kinetic energy is then 
+
+$$
+T = \frac{P_C^2}{2(M_1+M_2)} -\frac{P_C P_r}{M_1+M_2} + \frac{P_r^2}{2(M_1+M_2)} + \frac{M_1+M_2}{2*M_1 * M_2} P_R^2 
+$$
+
+and now we only need to add the electron part $\frac{1}{2m} \sum p^2$ where $p = -i \hbar \nabla_{\vec{r_i}}$. Correction applying the grad operator to 
+
+$$
+\nabla_r =  \nabla_{\vec{r}_i} + \nabla_R
+$$
+
+$$
+\to -i \hbar (\nabla_C-\frac{m}{M_1+M_2+nm} \sum \nabla_{\mathrm{\vec{r_i}}})
+$$
+
+$$
+T = \frac{P_C^2}{2(M_1+M_2)} -\frac{P_C P_r}{M_1+M_2} + \frac{P_r^2}{2(M_1+M_2)} + ...
+$$
+
+$$
+... + \frac{M_1+M_2}{2*M_1 * M_2} P_R^2 + \frac{1}{2m} \sum P_r^2
+$$
+
 
 
 

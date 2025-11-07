@@ -1,6 +1,6 @@
 +++
 date = '2025-10-27T19:42:21+01:00'
-draft = false
+draft = true
 title = 'Thales to Dewey - Application to St. Augustine'
 +++
 
