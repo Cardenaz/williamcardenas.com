@@ -18,7 +18,7 @@ I was attempting to recreate this paper by hand ...
 Now, is this paper the first sign of his geometric reductionism? 
 
 
-#### Step 1 - Transforming the H in order to reduce the problem to 1D
+### Step 1 - Transforming the H in order to reduce the problem to 1D
 
 
 Letting capital letters denote the nuclei and small letters the electrons, we are given: 
@@ -66,164 +66,204 @@ $$
 $$
 
 
-And for the electron lab frame vector we have $r = \vec{r} + R_N$ from eq. (1).
-
-The multivariable chain rule for a fucntion $f(x(q))$: $\frac{\partial f}{\partial q_i} = \sum_j \frac{\partial x_j}{\partial q_i} \frac{\partial f}{\partial x_j} $
-
-Let's compute $\nabla_{R_1}$: 
-$$
-\nabla_{R_1} = \frac{\partial R_N}{\partial R_1} \cdot \nabla_{R_N} + \frac{\partial R}{\partial R_1} \cdot \nabla_R
-$$
-$$
-= \frac{M_1}{M_1+M_2} \nabla_{R_N} - \nabla_R
-$$
-
-
-and $\nabla_{R_2}$: 
-$$
-\nabla_{R_2} = \frac{\partial R_N}{\partial R_2} \cdot \nabla_{R_N} + \frac{\partial R}{\partial R_2} \cdot \nabla_R
-$$
-$$
-= \frac{M_2}{M_1+M_2} \cdot \nabla_{R_N} + \nabla_{R}
-$$
-
-and for $\nabla_{r} = \nabla_{\vec{r}_i}$.
-
-
-Now let us finish the job by replacing $R_N$ with $C$ and $\vec{r}$
-
-From eq. (3) 
-$$
-C = \frac{m \sum (\vec{r}+R_N) + (M_1+M_2)R_N}{\sum m + M_1+M_2} 
-$$
-$$
- = \frac{m \sum \vec{r} + (M_1+M_2+nm)R_N}{\sum m + M_1+M_2} \leftrightarrow R_N = \frac{C(\sum m + M_1+M_2) - m \sum \vec{r}}{M_1+M_2+nm}
-$$
-$$
-\leftrightarrow R_N = C - \frac{m}{M_1+M_2+nm} \sum \vec{r}
-$$
-
-$\nabla_{R_N} = \frac{\partial C}{\partial R_n} \cdot \nabla_C + \frac{\partial \vec{r}}{\partial R_n} \cdot \nabla_{\vec{r}_i}$
+And for the electron lab frame vector we have $r = \vec{r} + R_N$ from eq. (1), and rewriting this in terms of $C$: 
 
 $$
-= \nabla_C - \nabla_{\vec{r}_i}
-$$
-
-(Technically $\nabla_{R_N} = \nabla_C - \frac{m}{M_1+M_2+nm} \sum_{j=1} \nabla_{\vec{r}_j}$ since we have multiple ones.)
-
-So 
-$$
-\frac{M_1}{M_1+M_2}(\nabla_C - \nabla_{\vec{r}_i}) - \nabla_R
+r = \vec{r} + C - \frac{m}{\sum m + M_1 + M_2} \sum \vec{r}
 $$
 
 $$
-\frac{M_2}{M_1+M_2}(\nabla_C - \nabla_{\vec{r}_i}) + \nabla_R
-$$
-
-Now let's define the momentum operators $P_C = -i \hbar \nabla_C$, $P_r = -i \hbar \nabla_{r}$ and $P_R = -i \hbar \nabla_R$. We know from the presented Hamiltonian that the original momentum operators are defined as: 
-
-$$
-P_1 = -i \hbar \nabla_{R_1}
-$$
-$$
-P_2 = -i \hbar \nabla_{R_2}
-$$
-
-Computing $P_1$: 
-
-$$
-\hat{P_1} = -i \hbar \nabla_{R_1} = -i \hbar (\frac{M_1}{M_1+M_2}(\nabla_C - \nabla_{\vec{r}_i}) - \nabla_R)
-$$
-
-$$
-=   -i \hbar (\frac{M_1}{M_1+M_2}(-\frac{P_C}{i \hbar} + \frac{P_r}{i \hbar}) + \frac{P_R}{i \hbar}) = \frac{M_1}{M_1+M_2}(P_C-P_r)-P_R
-$$
-
-and similarly for $P_2$ we get 
-$$
-P_2 = -i \hbar \nabla_{R_2} = \frac{M_2}{M_1+M_2}(P_C-P_r)+P_{R}
-$$
-
-Now we can compute the squares $P^2_1$ and $P^2_2$: 
-
-$$
-P^2_1 = (\frac{M_1}{M_1+M_2}(P_C-P_r)-P_R)^2 =
-$$
-
-$$
-= (\frac{M_1}{M_1+M_2})^2 (P_C^2-2P_C P_r + P_R^2) - \frac{2M_1}{M_1+M_2}(P_C-P_r)P_R+P_R^2
-$$
-
-and $P^2_2$:
-
-$$
-P^2_2 = (\frac{M_2}{M_1+M_2}(P_C-P_r)+P_{R})^2 = 
-$$
-
-$$
-= (\frac{M_2}{M_1+M_2})^2 (P_C^2-2P_C P_r + P_R^2) + \frac{2M_2}{M_1+M_2}(P_C-P_r)P_R+P_R^2
+R_1 = C - \frac{m \sum \vec{r}}{\sum m+ M_1+M_2} - \frac{M_2}{M_1+M_2}R
 $$
 
 
-Kinetic energy is $T = \frac{P_1^2}{2M_1} +\frac{P_2^2}{2M_2}$, define $\alpha = \frac{M_1}{M_1+M_2}$ and $\beta = \frac{M_2}{M_1+M_2}$
-
-
 $$
-T = \frac{1}{2M_1}[\alpha^2 P^2_C - 2\alpha^2 P_C P_r + \alpha^2 P^2_r - 2\alpha P_CP_R + 2\alpha P_rP_R + P^2_R + ...
+R_2 = C - \frac{m \sum \vec{r}}{\sum m+ M_1+M_2} + \frac{M_1}{M_1+M_2}R
 $$
 
+
+Now we want to derive the expressions for $\nabla_{R_1}$, $\nabla_{R_2}$ and $\nabla_{r}$. Recall that the multivariable chain rule for a function $f(x(q))$: $\frac{\partial f}{\partial q_i} = \sum_j \frac{\partial x_j}{\partial q_i} \frac{\partial f}{\partial x_j}$. Set $\alpha := \frac{m}{\sum m + M_1 + M_2}$. 
+
+
+Computing $\nabla_{r}$: 
 $$
-... + \frac{1}{2M_2}[\beta^2 P^2_C - 2\beta^2 P_C P_r + \beta^2 P^2_r + 2\beta P_CP_R - 2\beta P_rP_R + P^2_R
+\nabla_r = \frac{\partial \vec{r}}{\partial r} \nabla_{\vec{r}} + \frac{\partial R}{\partial r} \nabla_{R} + \frac{\partial C}{\partial r} \nabla_{C} 
+$$
+$$
+= \nabla_{\vec{r}} + \alpha \nabla_{C} 
 $$
 
-Collecting terms we see that
-
+Computing $\nabla_{R_1}$: 
 $$
-P_C^2 [\frac{1}{2M_1} \frac{M_1^2}{(M_1+M_2)^2} + \frac{1}{2M_2}\frac{M_2^2}{(M_1+M_2)^2}] = \frac{1}{2(M_1+M_2)}P_C^2
-$$
-$$
-P_CP_r [-\frac{1}{2M_1}2\frac{M_1^2}{(M_1+M_2)^2} -\frac{1}{2M_2}2\frac{M_2^2}{(M_1+M_2)^2}] = -\frac{1}{M_1+M_2}P_C P_r
+\nabla_{R_1} = \frac{\partial C}{\partial R_1} \nabla_{C} + \frac{\partial \vec{r}}{\partial R_1} \nabla_{\vec{r}} + \frac{\partial R}{\partial R_1} \nabla_{R} 
 $$
 $$
-P_r^2 [\frac{1}{2M_1}2\frac{M_1^2}{(M_1+M_2)^2} + \frac{1}{2M_2}2\frac{M_1^2}{(M_2+M_2)^2}] = \frac{1}{2(M_1+M_2)}P_r^2
+= \frac{M_1}{\sum m + M_1 + M_2} \nabla_C - \sum \frac{M_1}{M_1+M_2}\nabla_{\vec{r}} + (-1) \nabla_{R}
+$$
+Computing $\nabla_{R_2}$: 
+$$
+\nabla_{R_2} = \frac{\partial C}{\partial R_2} \nabla_{C} + \frac{\partial \vec{r}}{\partial R_2} \nabla_{\vec{r}} + \frac{\partial R}{\partial R_2} \nabla_{R} 
 $$
 $$
-P_CP_R [-\frac{1}{2M_1}*2\frac{M_1}{(M_1+M_2)}+\frac{1}{2M_2}*2\frac{M_2}{(M_1+M_2)}] = 0
-$$
-$$
-P_rP_R[-\frac{1}{2M_1}*2\frac{M_1}{(M_1+M_2)}+\frac{1}{2M_2}*2\frac{M_2}{(M_1+M_2)}] = 0
-$$
-
-$$
-P_R^2[\frac{1}{2M_1} + \frac{1}{2M_2}] = \frac{M_1+M_2}{2*M_1 * M_2} P_R^2
-$$
-
-Note that the cross electron-nuclear momentum dies. The simplified result for the nuclear kinetic energy is then 
-
-$$
-T = \frac{P_C^2}{2(M_1+M_2)} -\frac{P_C P_r}{M_1+M_2} + \frac{P_r^2}{2(M_1+M_2)} + \frac{M_1+M_2}{2*M_1 * M_2} P_R^2 
-$$
-
-and now we only need to add the electron part $\frac{1}{2m} \sum p^2$ where $p = -i \hbar \nabla_{\vec{r_i}}$. Correction applying the grad operator to 
-
-$$
-\nabla_r =  \nabla_{\vec{r}_i} + \nabla_R
-$$
-
-$$
-\to -i \hbar (\nabla_C-\frac{m}{M_1+M_2+nm} \sum \nabla_{\mathrm{\vec{r_i}}})
-$$
-
-$$
-T = \frac{P_C^2}{2(M_1+M_2)} -\frac{P_C P_r}{M_1+M_2} + \frac{P_r^2}{2(M_1+M_2)} + ...
-$$
-
-$$
-... + \frac{M_1+M_2}{2*M_1 * M_2} P_R^2 + \frac{1}{2m} \sum P_r^2
+= \frac{M_2}{\sum m + M_1 + M_2} \nabla_C - \sum \frac{M_2}{M_1+M_2}\nabla_{\vec{r}} +  \nabla_{R}
 $$
 
 
 
+(Note to self: when $\nabla_{\vec{r}}$ appears in $\nabla_{R_{1,2}}$)
+
+
+
+
+#### Computing the momenta
+
+From the text we can deduce $P_1 = -i \hbar \nabla_{R_1}, P_2 = -i \hbar \nabla_{R_2},$ and $p_r = -i \hbar \nabla_r$. Properly expressed in new variables: 
+
+$$
+p_i = -i\hbar (\nabla_{\vec{r}} + \alpha \nabla_C) 
+$$
+$$
+P_1 = -i\hbar (\frac{M_1}{\sum m + M_1 + M_2} \nabla_C - \sum \frac{M_1}{M_1+M_2}\nabla_{\vec{r}}  - \nabla_{R}) 
+$$
+$$
+P_1 = -i\hbar (\frac{M_2}{\sum m + M_1 + M_2} \nabla_C - \sum \frac{M_2}{M_1+M_2}\nabla_{\vec{r}} +  \nabla_{R})
+$$
+
+Set $\gamma = -i \hbar \nabla_C$, $p_{\vec{r}} = -i \hbar \nabla_{\vec{r}}$ and $P_{R} = -i \hbar \nabla_{R}$
+
+Now we want to compute each term in the kinetic energy given in the first equation. 
+
+$$
+p^2_i = p^2_{\vec{r}} + 2 \alpha p_{\vec{r}} \gamma + \alpha^2 \gamma^2
+$$
+
+$$
+\implies \frac{1}{2m} \sum p^2_i = \frac{1}{2m}(\sum p^2_{\vec{r}}) + 2 \alpha \gamma \sum p_{\vec{r}} + \alpha^2 \gamma^2 \sum_i * 1)
+$$
+
+For the $P_1$ term
+
+$$
+P_1 = \frac{M_1}{\sum m + M_1 + M_2 }\gamma - \frac{M_1}{M_1+M_2} \sum p_{\vec{r}} - P_R
+$$
+
+$$
+\implies P^2_1 = (\frac{M_1}{\sum m + M_1 + M_2 }\gamma)^2 + (- \frac{M_1}{M_1+M_2} \sum p_{\vec{r}})^2 + (-P_R)^2 + ...
+$$
+
+$$
+... + 2(\frac{M_1}{\sum m + M_1 + M_2 }\gamma)(- \frac{M_1}{M_1+M_2} \sum p_{\vec{r}}) + 2(\frac{M_1}{\sum m + M_1 + M_2 }\gamma)(-P_R) + ...
+$$
+
+$$
+... + 2(- \frac{M_1}{M_1+M_2} \sum p_{\vec{r}})(-P_R)
+$$
+
+And therefore
+
+$$
+\frac{P_1^2}{2M_1} = \frac{M_1}{2(\sum m + M_1 + M_2)^2}\gamma^2+\frac{M_1}{2(M_1+M_2)^2}(\sum p_{\vec{r}})^2 + \frac{1}{2M_1}P_R^2 + ...
+$$
+
+$$
+...  -\frac{M_1}{(M_1+M_2)(\sum m + M_1 + M_2)}(\sum p_{\vec{r}})\gamma - \frac{1}{\sum m + M_1 + M_2}\gamma P_R + ...
+$$
+$$
+... + \frac{1}{M_1+M_2}(\sum p_{\vec{r}})P_R
+$$
+
+
+For the $P_2$ term: 
+
+$$
+P_2 = \frac{M_2}{\sum m + M_1 + M_2 }\gamma - \frac{M_2}{M_1+M_2} \sum p_{\vec{r}} + P_R
+$$
+
+$$
+\implies P^2_2 = (\frac{M_2}{\sum m + M_1 + M_2 }\gamma)^2 + (- \frac{M_2}{M_1+M_2} \sum p_{\vec{r}})^2 + P_R^2 + ...
+$$
+
+$$
+... + 2(\frac{M_2}{\sum m + M_1 + M_2 }\gamma)(- \frac{M_2}{M_1+M_2} \sum p_{\vec{r}}) + 2(\frac{M_2}{\sum m + M_1 + M_2 }\gamma)(P_R) + ...
+$$
+$$
+... + 2(- \frac{M_2}{M_1+M_2} \sum p_{\vec{r}})(P_R)
+$$
+
+And therefore
+
+$$
+\frac{P_2^2}{2M_2} = \frac{M_2}{2(\sum m + M_1 + M_2)^2}\gamma^2+\frac{M_2}{2(M_1+M_2)^2}(\sum p_{\vec{r}})^2 + \frac{1}{2M_2}P_R^2 + ...
+$$
+
+$$
+...  -\frac{M_2}{(M_1+M_2)(\sum m + M_1 + M_2)}(\sum p_{\vec{r}})\gamma + \frac{1}{\sum m + M_1 + M_2}\gamma P_R + ...
+$$
+$$
+... - \frac{1}{M_1+M_2}(\sum p_{\vec{r}})P_R
+$$
+
+Finally we can start comparing terms now, for the $\sum p_{\vec{r}} \cdot P_R$: 
+$$
+\frac{1}{M_1+M_2} - \frac{1}{M_1+M_2} = 0
+$$
+
+and for $\gamma \cdot P_R$: 
+$$
+-\frac{1}{\sum m + M_1 + M_2} + \frac{1}{\sum m + M_1 + M_2} = 0
+$$
+
+and for $\sum p_{\vec{r}} \cdot \gamma$: 
+
+$$
+-\frac{M_1}{(M_1+M_2)(\sum m + M_1 + M_2)} - \frac{M_2}{(M_1+M_2)(\sum m + M_1 + M_2)} = 
+$$
+
+$$
+=  -\frac{1}{\sum m + M_1 + M_2}
+$$
+(which will cancel with the electron part)
+
+for $\sum p_{\vec{r}}^2$: 
+$$
+\frac{M_1}{2(M_1+M_2)^2} + \frac{M_2}{2(M_1+M_2)^2} = \frac{1}{2(M_1+M_2)}
+$$
+and for $P^2$: 
+$$
+\frac{1}{2M_1} + \frac{1}{2M_2}
+$$
+
+and for $\gamma^2$: 
+$$
+\frac{M_1+M_2}{2(\sum m + M_1 + M_2)^2}
+$$
+
+Alas the kinetic energy becomes: 
+
+$$
+\frac{1}{2m}(\sum p^2_{\vec{r}} + 2 \alpha \gamma \sum p_{\vec{r}} + \alpha^2 \gamma^2 \sum_i) - \frac{1}{\sum m + M_1 + M_2} (\sum p_{\vec{r}})\gamma + ...
+$$
+
+$$
+... + \frac{1}{2(M_1+M_2)}(\sum p^2_{\vec{r}}) + (\frac{1}{2M_1}+ \frac{1}{2M_2})P^2_R + \frac{M_1+M_2}{2(\sum m + M_1+M_2)^2}\gamma^2
+$$
+
+To simplify this we notice that the electron cross term $\frac{1}{2m} 2\alpha \gamma \sum p_{\vec{r}} =  \frac{1}{\sum m + M_1 + M_2} \gamma \sum p_{\vec{r}}$  cancels exactly with the nuclear cross term: $- \frac{1}{\sum m + M_1 + M_2} (\sum p_{\vec{r}})\gamma$. And lastly, since $\sum_i = \frac{\sum m}{m}$, then from the electron part: $\frac{1}{2m} \alpha^2 \gamma^2 \frac{\sum m}{m} = \frac{1}{2m} (\frac{m}{\sum m + M_1 + M_2})^2 \gamma^2 \frac{\sum m}{m} = \frac{\gamma^2}{(\sum m + M_1 + M_2)^2} \sum m$. Adding the $\gamma^2$ from the nuclear part: 
+
+$$
+(\frac{\sum m}{(\sum m + M_1 + M_2)^2} + \frac{M_1+M_2}{2(\sum m + M_1+M_2)^2})\gamma^2 = 
+$$
+$$
+= \frac{2\sum m + M_1+M_2}{2(\sum m + M_1+M_2)^2}\gamma^2 = \frac{1}{(\sum m + M_1+M_2)^2}\gamma^2 
+$$
+
+Super! The finalized result for the kinetic energy is then: 
+
+$$
+\frac{1}{2m} \sum p^2_{\vec{r}} + \frac{1}{2(M_1+M_2)}(\sum p_{\vec{r}})^2 + \frac{1}{2}(\frac{1}{M_1}+ \frac{1}{M_2})P^2_R + \frac{1}{(\sum m + M_1+M_2)^2}\gamma^2 
+$$
+
+Which is the exact result presented in equation (3) in the paper. 
 
 #### Step 2 - Go to spherical coordinates to use motion in a centrally symmetric field
 Landau says "polar" here which is interesting. 

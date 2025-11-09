@@ -6,8 +6,15 @@
     <description>Recent content on William Cárdenas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Nov 2025 18:40:32 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 08 Nov 2025 10:25:34 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nuclear Engineering</title>
+      <link>http://localhost:1313/posts/nuclear-engineering/</link>
+      <pubDate>Sat, 08 Nov 2025 10:25:34 +0100</pubDate>
+      <guid>http://localhost:1313/posts/nuclear-engineering/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Observing the Facts of Reality</title>
       <link>http://localhost:1313/posts/observing-the-facts-of-reality/</link>
