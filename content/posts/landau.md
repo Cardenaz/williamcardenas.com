@@ -18,7 +18,7 @@ I was attempting to recreate this paper by hand ...
 Now, is this paper the first sign of his geometric reductionism? 
 
 
-### Step 1 - Transforming the H in order to reduce the problem to 1D
+### Step 1 - Separate the Hamiltonian in COM + relative coordinates
 
 
 Letting capital letters denote the nuclei and small letters the electrons, we are given: 
@@ -265,18 +265,19 @@ $$
 
 Which is the exact result presented in equation (3) in the paper. 
 
-#### Step 2 - Go to spherical coordinates to use motion in a centrally symmetric field
-Landau says "polar" here which is interesting. 
+The $\gamma$ term is corresponding to the motion of the molecule's COM. However, the spectra does not depend on how the molecule is moving through space, and the motion is separable from internal motion, i.e., $\Psi = \Psi(r,R) \cdot \Psi_{CM}(C)$ and this is why Landau says that "of no further interest here, we ignore it."
 
-Now, why express the Hamiltonian in $p_R, p_\theta$ and $p_\varphi$? Because in the language of Heisenberg-Born-Jordan, coordinates and momenta are the fundamental objects
-with commutators $[q,p] = i \hbar$. Think about it, if he would have kept the Laplacian standard, it would have looked like something Schrodinger-esque, and we are too early in history for that. Once in this lovely p-notation we can derive selection rules from angular momentum algebra. 
+### Step 2 - Describe the molecule's rotation
 
-#### Step 3 - Going back to Descartes 
-![Landua page](/images/transform.png)
+First question to ask is why are we talking about angular momentum now? The second one is how do we get from eq (3) to eq (5)? 
 
+After removing the COM part we have the Hmailtonian
 
-This was super confusing first. Why do all of this endless algebra just to transform back to cartesian coordinates? 
+$$
+H = U + \frac{1}{2m} \sum p^2 + \frac{1}{2(M_1+M_2)}(\sum p)^2 + \frac{1}{2}(\frac{1}{M_1}+ \frac{1}{M_2})P^2
+$$
 
-*Because spectroscopy does not only care about $M^2$ but for projection on axes like M_z and how they change under Zeeman/Stark effects. Those are usually written in lab frames.*
+Notice that the momentum operator $P_R$ depends on the radius R, now we can introduce spherical coordinates, s.t., $\vec{R} = (R, \theta, \phi)$. Now since everybody has done problem 1 in ch. §41 in Mechanics Vol 1, one knows immediately that the Hamiltonian in spherical coordinates is of the form $P^2 = p^2_R + \frac{p^2_{\theta}}{R^2} + \frac{p^2_{\phi}}{R^2 \sin^2 \theta}$
+
 
 ... 

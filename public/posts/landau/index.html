@@ -175,7 +175,7 @@ The paper &ldquo;ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES&rdquo; was w
 <p>&hellip; and I remembered a recent article <a href="https://arxiv.org/pdf/2503.04778">https://arxiv.org/pdf/2503.04778</a> on the specific method of Landau, and just was curious to test their hypothesis.</p>
 <p><strong>The paper &ldquo;ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES&rdquo; was written right after matrix mechanics. Spectroscopy of diatomic molecules had a well developed empirical band theory but needed a proper foundation in QM.</strong></p>
 <p>Now, is this paper the first sign of his geometric reductionism?</p>
-<h3 id="step-1---transforming-the-h-in-order-to-reduce-the-problem-to-1d">Step 1 - Transforming the H in order to reduce the problem to 1D</h3>
+<h3 id="step-1---separate-the-hamiltonian-in-com--relative-coordinates">Step 1 - Separate the Hamiltonian in COM + relative coordinates</h3>
 <p>Letting capital letters denote the nuclei and small letters the electrons, we are given:</p>
 <p>$$
 \vec{r} = r - \frac{M_1R_1 + M_2 R_2}{M_1+M_2} \tag{1}
@@ -352,14 +352,14 @@ $$</p>
 \frac{1}{2m} \sum p^2_{\vec{r}} + \frac{1}{2(M_1+M_2)}(\sum p_{\vec{r}})^2 + \frac{1}{2}(\frac{1}{M_1}+ \frac{1}{M_2})P^2_R + \frac{1}{(\sum m + M_1+M_2)^2}\gamma^2
 $$</p>
 <p>Which is the exact result presented in equation (3) in the paper.</p>
-<h4 id="step-2---go-to-spherical-coordinates-to-use-motion-in-a-centrally-symmetric-field">Step 2 - Go to spherical coordinates to use motion in a centrally symmetric field</h4>
-<p>Landau says &ldquo;polar&rdquo; here which is interesting.</p>
-<p>Now, why express the Hamiltonian in $p_R, p_\theta$ and $p_\varphi$? Because in the language of Heisenberg-Born-Jordan, coordinates and momenta are the fundamental objects
-with commutators $[q,p] = i \hbar$. Think about it, if he would have kept the Laplacian standard, it would have looked like something Schrodinger-esque, and we are too early in history for that. Once in this lovely p-notation we can derive selection rules from angular momentum algebra.</p>
-<h4 id="step-3---going-back-to-descartes">Step 3 - Going back to Descartes</h4>
-<p><img src="/images/transform.png" alt="Landua page"></p>
-<p>This was super confusing first. Why do all of this endless algebra just to transform back to cartesian coordinates?</p>
-<p><em>Because spectroscopy does not only care about $M^2$ but for projection on axes like M_z and how they change under Zeeman/Stark effects. Those are usually written in lab frames.</em></p>
+<p>The $\gamma$ term is corresponding to the motion of the molecule&rsquo;s COM. However, the spectra does not depend on how the molecule is moving through space, and the motion is separable from internal motion, i.e., $\Psi = \Psi(r,R) \cdot \Psi_{CM}(C)$ and this is why Landau says that &ldquo;of no further interest here, we ignore it.&rdquo;</p>
+<h3 id="step-2---describe-the-molecules-rotation">Step 2 - Describe the molecule&rsquo;s rotation</h3>
+<p>First question to ask is why are we talking about angular momentum now? The second one is how do we get from eq (3) to eq (5)?</p>
+<p>After removing the COM part we have the Hmailtonian</p>
+<p>$$
+H = U + \frac{1}{2m} \sum p^2 + \frac{1}{2(M_1+M_2)}(\sum p)^2 + \frac{1}{2}(\frac{1}{M_1}+ \frac{1}{M_2})P^2
+$$</p>
+<p>Notice that the momentum operator $P_R$ depends on the radius R, now we can introduce spherical coordinates, s.t., $\vec{R} = (R, \theta, \phi)$. Now since everybody has done problem 1 in ch. §41 in Mechanics Vol 1, one knows immediately that the Hamiltonian in spherical coordinates is of the form $P^2 = p^2_R + \frac{p^2_{\theta}}{R^2} + \frac{p^2_{\phi}}{R^2 \sin^2 \theta}$</p>
 <p>&hellip;</p>
 </section>
 
