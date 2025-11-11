@@ -269,15 +269,30 @@ The $\gamma$ term is corresponding to the motion of the molecule's COM. However,
 
 ### Step 2 - Describe the molecule's rotation
 
-First question to ask is why are we talking about angular momentum now? The second one is how do we get from eq (3) to eq (5)? 
+The first question to ask now is why is Landau introducing angular momentum? 
 
-After removing the COM part we have the Hmailtonian
+
+I think the answer is the following: For a system in an external field we cannot claim that the angular momentum is conserved. But if there is a symmetry, e.g., centrally symmetric field or as in this problem an "axially" symmetric field (later explain what that means) then the component of angular momentum along the axis of symmetry is conserved. But how do we even show that the corresponding conserved quantity is precisly this? 
+
+Think about the Hamiltonian of a *closed* system. By *closed* system we mean "a system of particles which interact with one another but with no other bodies." (See definition from §5. Lagrangian for a system of particles Mechanics Vol 1.) You might object, "well, isn't the diatomic molecule a closed system? And if that is the case then why are we bothering with axial symmetry?" Yes, the diatomic molecule is a closed system. But we switched to relative coordinates and in this case only the projection along the axis of the molecule is constant. Remember, Landau teaches us that the angular momentum of a system depends on the point with respect to which it is defined. Why? Because angular momentum involves the radius vector. And for a rigid body, the most fitting point is the COM of the body. 
+
+The reason why we understand that it has to be angular momentum that becomes conserved instead of any other quantity is the following: Due to the isotropy of space we have a condition for an infinitely small rotation that eventually becomes: 
 
 $$
-H = U + \frac{1}{2m} \sum p^2 + \frac{1}{2(M_1+M_2)}(\sum p)^2 + \frac{1}{2}(\frac{1}{M_1}+ \frac{1}{M_2})P^2
+(\sum_a r_a \times \nabla_a )\hat{H} - \hat{H}(\sum_a r_a \times \nabla_a) = 0 \tag{§26 QM}
 $$
 
-Notice that the momentum operator $P_R$ depends on the radius R, now we can introduce spherical coordinates, s.t., $\vec{R} = (R, \theta, \phi)$. Now since everybody has done problem 1 in ch. §41 in Mechanics Vol 1, one knows immediately that the Hamiltonian in spherical coordinates is of the form $P^2 = p^2_R + \frac{p^2_{\theta}}{R^2} + \frac{p^2_{\phi}}{R^2 \sin^2 \theta}$
+(Might be relevant here to learn how to do this small rotation reasoning leading to this condition. See §9 Vol 1 for steps.)
+
+And this quantity we call the angular momentum. Now that we have some slight understanding to why AM shows up, let's proceed more concretely. 
+
+
+In the second (revised) edition 1965 of Vol. 3 A course in theoretical physics, §82 part of the ch. The Diatomic molecule, there is an eerily similar problem to what Landau actually does in this paper. The problem is stated as follows: 
+
+"**Determine the angular part of the wave function for a diatomic molecule with zero spin (F. Reiche 1926)**"
+
+Now, funnily enough, since Landau wrote this paper in 1926, I don't think the concept of "spin" existed, and secondly the paper by Schrodinger wasn't released or not known at the time. So at this junction, we have the possibility to treat the problem in two different ways! And even more strangely, in the physical copy of Vol. 3 I have, the 3rd edition, the first problem for §82 is not the above but something completely different, it is about determining the accuracy of the approximation which gives the separation of the electrons and nuclear motions in the diatomic molecule. Clearly a super interesting problem as well and seemingly tied to this paper.
+
 
 
 ... 
