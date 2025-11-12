@@ -272,7 +272,7 @@ The $\gamma$ term is corresponding to the motion of the molecule's COM. However,
 The first question to ask now is why is Landau introducing angular momentum? 
 
 
-I think the answer is the following: For a system in an external field we cannot claim that the angular momentum is conserved. But if there is a symmetry, e.g., centrally symmetric field or as in this problem an "axially" symmetric field (later explain what that means) then the component of angular momentum along the axis of symmetry is conserved. But how do we even show that the corresponding conserved quantity is precisly this? 
+I think the answer is the following: For a system in an external field we cannot claim that the angular momentum is conserved. But if there is a symmetry, e.g., centrally symmetric field or as in this problem an "axially" symmetric field (later explain what that means) then the component of angular momentum along the axis of symmetry is conserved. But how do we even show that the corresponding conserved quantity is precisely this? 
 
 Think about the Hamiltonian of a *closed* system. By *closed* system we mean "a system of particles which interact with one another but with no other bodies." (See definition from §5. Lagrangian for a system of particles Mechanics Vol 1.) You might object, "well, isn't the diatomic molecule a closed system? And if that is the case then why are we bothering with axial symmetry?" Yes, the diatomic molecule is a closed system. But we switched to relative coordinates and in this case only the projection along the axis of the molecule is constant. Remember, Landau teaches us that the angular momentum of a system depends on the point with respect to which it is defined. Why? Because angular momentum involves the radius vector. And for a rigid body, the most fitting point is the COM of the body. 
 
@@ -292,6 +292,17 @@ In the second (revised) edition 1965 of Vol. 3 A course in theoretical physics, 
 "**Determine the angular part of the wave function for a diatomic molecule with zero spin (F. Reiche 1926)**"
 
 Now, funnily enough, since Landau wrote this paper in 1926, I don't think the concept of "spin" existed, and secondly the paper by Schrodinger wasn't released or not known at the time. So at this junction, we have the possibility to treat the problem in two different ways! And even more strangely, in the physical copy of Vol. 3 I have, the 3rd edition, the first problem for §82 is not the above but something completely different, it is about determining the accuracy of the approximation which gives the separation of the electrons and nuclear motions in the diatomic molecule. Clearly a super interesting problem as well and seemingly tied to this paper.
+
+
+Moving to the 2nd page of the paper, Landau starts out by switching to spherical coordinates, by denoting $\vec{R} = (R, \theta, \phi)$ we now need to express the operators of angular momentum of this form. 
+
+Generally we know $\hat{l}_z = -i \frac{\partial}{\partial \phi}$ and
+
+$$
+ \hat{l}_{\pm} =  e^{\pm i \phi}(\pm \frac{\partial}{\partial \theta}+  i \cot \theta \frac{\partial}{\partial \phi})
+$$
+
+How do we arrive at these results? He calls it a "simple calculation" and omits the details, but ... here's the solution: 
 
 
 
