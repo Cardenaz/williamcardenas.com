@@ -265,7 +265,7 @@ $$
 
 Which is the exact result presented in equation (3) in the paper. 
 
-The $\gamma$ term is corresponding to the motion of the molecule's COM. However, the spectra does not depend on how the molecule is moving through space, and the motion is separable from internal motion, i.e., $\Psi = \Psi(r,R) \cdot \Psi_{CM}(C)$ and this is why Landau says that "of no further interest here, we ignore it."
+The $\gamma$ term is corresponding to the motion of the molecule's COM. However, the spectra does not depend on how the molecule is moving through space, and the motion is separable from internal motion, i.e., $\Psi = \Psi(r,R) \cdot \Psi_{CM}(C)$ and this is why Landau says that "of no further interest here, we ignore it." Nothing would change if we kept the term around for the next step, but recognizing this allows us to not carry around unnecessary baggage.
 
 ### Step 2 - Describe the molecule's rotation
 
@@ -291,19 +291,55 @@ In the second (revised) edition 1965 of Vol. 3 A course in theoretical physics, 
 
 "**Determine the angular part of the wave function for a diatomic molecule with zero spin (F. Reiche 1926)**"
 
-Now, funnily enough, since Landau wrote this paper in 1926, I don't think the concept of "spin" existed, and secondly the paper by Schrodinger wasn't released or not known at the time. So at this junction, we have the possibility to treat the problem in two different ways! And even more strangely, in the physical copy of Vol. 3 I have, the 3rd edition, the first problem for §82 is not the above but something completely different, it is about determining the accuracy of the approximation which gives the separation of the electrons and nuclear motions in the diatomic molecule. Clearly a super interesting problem as well and seemingly tied to this paper.
+Now, funnily enough, since Landau wrote this paper in 1926, I don't think the concept of "spin" existed, and secondly the paper by Schrodinger wasn't released or not known at the time. So at this junction, we have the possibility to treat the problem in two different ways! And even more strangely, in the physical copy of Vol. 3 I have, the 3rd edition, the first problem for §82 is not the above but something completely different, it is about determining the accuracy of the approximation which gives the separation of the electrons and nuclear motions in the diatomic molecule. Clearly a super interesting problem as well and relevant to this paper.
 
 
 Moving to the 2nd page of the paper, Landau starts out by switching to spherical coordinates, by denoting $\vec{R} = (R, \theta, \phi)$ we now need to express the operators of angular momentum of this form. 
 
-Generally we know $\hat{l}_z = -i \frac{\partial}{\partial \phi}$ and
+Generally we know: 
+$$
+\hat{l}_z = -i \frac{\partial}{\partial \phi}
+$$ 
 
 $$
  \hat{l}_{\pm} =  e^{\pm i \phi}(\pm \frac{\partial}{\partial \theta}+  i \cot \theta \frac{\partial}{\partial \phi})
 $$
 
-How do we arrive at these results? He calls it a "simple calculation" and omits the details, but ... here's the solution: 
+How do we arrive at these results? He calls it a "simple calculation" and omits the details, but ... here's the solution for $\hat{l}_z$: Given $r = (x,y,z)$ and $p = (p_x, p_y, p_z)$ we get $\hat{l} = \hat{x}(yp_z-zp_y) -\hat{y}(xp_z-zp_x) + \hat{z}(xp_y-yp_x)$. And now we need to express each $\nabla_x, \nabla_y$ and $\nabla_z$ in spherical coordinates. Keep in mind that $r = \sqrt{x^2+y^2+z^2}$, $\theta = \arccos{\frac{z}{r}}$ and $\phi = \arctan{\frac{y}{x}}$. To find $\hat{l}_z$ we need to compute $\nabla_y$ and $\nabla_x$ : 
+
+$$
+\nabla_y = \frac{1}{\partial r} \frac{\partial r}{\partial y} + \frac{1}{\partial \theta} \frac{\partial \theta}{\partial y} + \frac{1}{\partial \phi} \frac{\partial \phi}{\partial y}
+$$
+
+Clearly $\frac{\partial r}{\partial y} = \frac{y}{\sqrt{x^2+y^2+z^2}}$, $\frac{\partial \theta}{\partial y} = -\frac{1}{\sqrt{1-u^2}} \frac{\partial u(y)}{\partial y} = -\frac{1}{\sqrt{1-u^2}} (-1)\frac{zy}{(x^2+y^2+z^2)^{3/2}} = \frac{1}{\sqrt{1-\frac{z^2}{r^2}}}\frac{zy}{r^3}$ and $\frac{\partial \phi}{\partial y} =\frac{1}{1+(\frac{y}{x})^2} \frac{1}{x} = \frac{x}{x^2+y^2}$
+
+For 
+$$
+\nabla_x = \frac{1}{\partial r} \frac{\partial r}{\partial x} + \frac{1}{\partial \theta} \frac{\partial \theta}{\partial x} + \frac{1}{\partial \phi} \frac{\partial \phi}{\partial x}
+$$
+
+$\frac{\partial r}{\partial x} = \frac{x}{\sqrt{x^2+y^2+z^2}}$, $\frac{\partial \theta}{\partial x} = -\frac{1}{\sqrt{1-u^2}} \frac{\partial u(x)}{\partial x} = \frac{1}{\sqrt{1-\frac{z^2}{r^2}}} \frac{xz}{r^3} $ and $\frac{\partial \phi}{\partial x} =\frac{1}{1+(\frac{y}{x})^2}(-1) \frac{y}{x^2} = -\frac{y}{x^2+y^2}$
+
+$$
+\hat{l}_z = xp_y-yp_x = x(\frac{y}{r}\nabla_r+\frac{1}{\sqrt{1-\frac{z^2}{r^2}}}\frac{zy}{r^3}\nabla + \frac{x}{x^2+y^2}\nabla) - y(\frac{x}{r}\nabla + \frac{1}{\sqrt{1-\frac{z^2}{r^2}}} \frac{xz}{r^3}\nabla-\frac{y}{x^2+y^2}\nabla)
+$$
+
+$$
+= \frac{x^2+y^2}{x^2+y^2}\nabla_{\phi} = \nabla_{\phi} \implies \hat{l}_z = -i \frac{\partial}{\partial \phi}
+$$
+(with $\hbar = 1$.)
+
+Anyway, moving on, we need to express $\vec{R}$ in $R, \theta$ and $\phi$. The square of the angular momentum operator $L$ is 
+
+$$
+\hat{L}^2 = L_-L_+ + L^2_z + L_z
+$$
+
+Subbing the expressions for $l_{\pm}$ and $l_z$ into the above yields: 
 
 
+$$
+\hat{l}^2 = -\hbar^2[\frac{1}{\sin^2 \theta} \frac{\partial^2}{\partial \phi^2}+\frac{1}{\sin \theta} \frac{\partial}{\partial \theta}(\sin \theta \frac{\partial}{\partial \theta})]
+$$
 
-... 
+s.t., $P^2_R = -\hbar^2 \nabla^2_R = p^2_R + \frac{1}{R^2} \hat{l}^2$. Let's see if we can identify the $p_\theta$ and $p_\phi$ from this expression. First thing to keep firm in your mind is that operators corresponding to physical quantities need to be Hermitian.
