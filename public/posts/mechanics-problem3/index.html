@@ -20,12 +20,15 @@
   />
 
   
-  <title>Nuclear Engineering - William Cárdenas</title>
+  <title>Landau - Mechanics Vol 1 - Problem 3 - William Cárdenas</title>
 
   
   <meta name="theme-color" />
 
-  <meta name="description" content="" />
+  <meta name="description" content="Since I got this problem wrong I thought it would be necessary to write about it for my own sake.
+&ldquo;A simple pendulum of mass $m$ whose point of support moves uniformly on a vertical circle with constant frequency $\gamma$. Find the Lagrangian for the system when placed in a uniform gravitational field (acceleration g).&rdquo;
+
+First of all, what is meant by &ldquo;vertical circle&rdquo;? A &ldquo;vertical circle&rdquo; is a circle that lies in the plane, where the motion is perpendicular to the ground. Contrast this with a horizontal circle, where instead the motion would be parallell to the ground." />
   <meta name="author" content="William Cárdenas" /><link rel="preload stylesheet" as="style" href="http://localhost:62862/main.min.css" />
 
   
@@ -161,18 +164,58 @@
       class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
     ><article>
   <header class="mb-14">
-    <h1 class="my-0! pb-2.5">Nuclear Engineering</h1><div class="text-xs antialiased opacity-60"><time>Nov 8, 2025</time></div></header>
+    <h1 class="my-0! pb-2.5">Landau - Mechanics Vol 1 - Problem 3</h1><div class="text-xs antialiased opacity-60"><time>Nov 17, 2025</time></div></header>
 
-  <section></section>
+  <section><p>Since I got this problem wrong I thought it would be necessary to write about it for my own sake.</p>
+<p><em>&ldquo;A simple pendulum of mass $m$ whose point of support moves uniformly on a vertical circle with constant frequency $\gamma$. Find the Lagrangian for the system when placed in a uniform gravitational field (acceleration g).&rdquo;</em></p>
+<p><img src="/images/problem.png" alt="Landua"></p>
+<p>First of all, what is meant by &ldquo;vertical circle&rdquo;? A &ldquo;vertical circle&rdquo; is a circle that lies in the plane, where the motion is perpendicular to the ground. Contrast this with a horizontal circle, where instead the motion would be parallell to the ground.</p>
+<p>We want to express the co-ordinates of the mass on the spring.</p>
+<p>$$
+x = a \cos{(\gamma t)} + l \sin{\phi}
+$$
+$$
+y = -a \sin{(\gamma t)} + l \cos{\phi}
+$$</p>
+<p>Why is $\gamma*t$ an angle? Because $\gamma$ has units $rad/s$.</p>
+<p>We could move straight in to computing the velocities but let me stop you for a moment. Why is $a \cos{(\gamma t)} -a \sin{(\gamma t)}$ a circle with radius $a$? Since $\mid a \cos{(\gamma t)} -a \sin{(\gamma t)} \mid = \sqrt{a^2 \cos^2{(\gamma t)} +a^2\sin^2{(\gamma t)}} = a$. Ok, we get that this is a circle with radius a centered at the origin in the xy-plane.</p>
+<p>$$
+\dot{x} = -a \gamma \sin{(\gamma t)} + l \dot{\phi} \cos{\phi}
+$$
+$$
+\dot{y} = -a \gamma \cos{(\gamma t)} + l \dot{\phi} \sin{\phi}
+$$</p>
+<p>$$
+\implies \dot{x}^2 = a^2 \gamma^2 \sin{\gamma t}^2 -2a \gamma l \dot{\phi} \sin{\gamma t} \cos{\phi} + l^2 \dot{\phi}^2 \cos^2{\phi}
+$$
+$$
+\implies \dot{y}^2 = a^2 \gamma^2 \cos{\gamma t}^2 -2a \gamma l \dot{\phi} \sin{\phi} \cos{\gamma t} + l^2 \dot{\phi}^2 \sin^2{\phi}
+$$</p>
+<p>$$
+\dot{x}^2 + \dot{y}^2 = a^2\gamma^2 -2a\gamma l\dot{\phi}(\sin \gamma t \cos \phi + \sin \phi \cos \gamma t) + l^2 \dot{\phi}^2
+$$</p>
+<p>The potential can be written as
+$$
+U = -(mg a \sin(\gamma t) + mg l \cos \phi)
+$$</p>
+<p>The Lagrangian becomes:</p>
+<p>$$
+L = \frac{1}{2} m(a^2\gamma^2 -2a\gamma l\dot{\phi}(\sin \gamma t \cos \phi + \sin \phi \cos \gamma t) + l^2 \dot{\phi}^2) - (mg a\sin(\gamma t) + mg l \cos \phi)
+$$</p>
+<p>Getting rid of terms ony depending on time, and using trig identity:</p>
+<p>$$
+L = \frac{1}{2} m l^2 \dot{\phi}^2 - 2am\gamma l\dot{\phi}\sin{(\gamma t + \phi)} +  mg l \cos \phi
+$$</p>
+</section>
 
   <nav
     class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
-  ><a class="ltr:pr-3 rtl:pl-3" href="http://localhost:62862/posts/aristotle/"
-      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>To demand a proof of everything argues want of education</span></a
+  ><a class="ltr:pr-3 rtl:pl-3" href="http://localhost:62862/posts/popper/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>Realism and The Aim of Science - Preface 1956</span></a
     ><a
       class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
-      href="http://localhost:62862/posts/observing-the-facts-of-reality/"
-      ><span>Observing the Facts of Reality</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+      href="http://localhost:62862/posts/hume/"
+      ><span>What&#39;s in Hume&#39;s universe?</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
     ></nav></article></main>
     <script>
 window.MathJax = {

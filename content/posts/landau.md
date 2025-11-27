@@ -343,3 +343,15 @@ $$
 $$
 
 s.t., $P^2_R = -\hbar^2 \nabla^2_R = p^2_R + \frac{1}{R^2} \hat{l}^2$. Let's see if we can identify the $p_\theta$ and $p_\phi$ from this expression. First thing to keep firm in your mind is that operators corresponding to physical quantities need to be Hermitian.
+
+Hermiticity condition for an operator $\hat{A}$ is 
+
+$$
+\int (\hat{A} \Psi^{+})\Psi dq = \int \Psi^{+} \hat{A} \Psi dq
+$$
+
+for $p_R = -i\hbar \frac{\partial}{\partial R}$: 
+
+$$
+\int_0^∞ f* p_R* g*R^2dR = \int_0^∞ f* -i\hbar \frac{\partial}{\partial R}gR^2dR 
+$$
