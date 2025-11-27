@@ -1,6 +1,6 @@
 +++
 date = '2025-11-27T20:34:08+01:00'
-draft = true
+draft = false
 title = 'Realism and The Aim of Science - Preface 1956'
 +++
 
