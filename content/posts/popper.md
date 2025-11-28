@@ -14,7 +14,7 @@ and I want you to keep this in mind while reading further.
 
 > *I am a rationalist. By a rationalist I mean a man who wishes to understand the world, and to learn by arguing with others.*
 
-Typically by Rationalist we mean somebody that obtains knowledge by deduction of concepts with little to no referent to reality. Examples of Rationalists are Plato, Kant, Hegel, Spinoza etc. Does he say that? No, he says “wishes to understand the world,” but this is confusing. Empiricists and Rationalists both seek to understand the world, you do not differentiate somebody by their wish to “understand the world.” Why would he then define himself as part of the Rationalist tradition if he means something completely different? Of course the Rationalist wants to understand the world, and of course the bridge collapsed because of gravity. 
+Typically by Rationalist we mean somebody that obtains knowledge by deduction of concepts with little to no reference to reality. Examples of Rationalists are Plato, Kant, Hegel, Spinoza etc. Does he say that? No, he says “wishes to understand the world,” but this is confusing. Empiricists and Rationalists both seek to understand the world, you do not differentiate somebody by their wish to “understand the world.” Why would he then define himself as part of the Rationalist tradition if he means something completely different? Of course the Rationalist wants to understand the world, and of course the bridge collapsed because of gravity. 
 
 > *The art of argument is a peculiar form of the art of fighting—with words instead of swords, and inspired by the interest of getting nearer to the truth about the world.*
 
