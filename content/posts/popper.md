@@ -18,7 +18,7 @@ Typically by Rationalist we mean somebody that obtains knowledge by deduction of
 
 > *The art of argument is a peculiar form of the art of fighting—with words instead of swords, and inspired by the interest of getting nearer to the truth about the world.*
 
-The art of argument is part of the branch of rhetoric. The point of this branch is to learn how to influence people effectively. The standard of truth is not fighting with words. The standard of truth is correspondence with reality. Weird focus.
+The art of argument is part of the branch of rhetoric. The point of this branch is to learn how to influence people effectively. The standard of truth is not fighting with words. The standard of truth is correspondence to reality. Weird focus.
 
 > *I believe that the so-called method of science consists in this kind of criticism. Scientific theories are distinguished from myths merely in being criticizable, and in being open to modifications in the light of criticism. They can be neither verified nor probabilified.*
 
