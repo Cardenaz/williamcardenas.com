@@ -24,7 +24,7 @@ The art of argument is part of the branch of rhetoric. The point of this branch 
 
 To verify something means to demonstrate that *that* something is true. This message, translated, becomes “we can’t demonstrate that a scientific theory is true.” Newton's laws are verified. We know when and when not to use them. We might find more cases in the future, but so what? Newton’s laws are also modified under certain contexts, what of it? We also have *verified* those modifications of the laws by the simple fact that the watch on your phone works, or that $\pi$-mesons actually reach the ground. Is this difficult to grasp? 
 
-Theories can also be probabilified as long as you have certainity. Hume correctly pointed out that if do not have certainity, then probability degenerates to 0. But again, this is a classical argument that arises from the fact that Hume is deeply confused about humans being capable of extending their consciousness beyond the sphere of an animal. 
+Theories can also be probabilified as long as you have certainty. Hume correctly pointed out that if you do not have certainty, then probability degenerates to 0. But again, this is a classical argument that arises from the fact that Hume is deeply confused about humans being capable of extending their consciousness beyond the sphere of an animal. 
 
 > *I believe that simplicity and clarity are values in themselves, but not that precision or exactness is a value in itself. Clarity and precision are different and sometimes even incompatible aims. I do not believe in what is often called an 'exact terminology': I do not believe in definitions, and I do not believe that definitions add to exactness; and I especially dislike pretentious terminology and the pseudo-exactness concerned with it.*
 
