@@ -282,16 +282,16 @@ $$
 (\sum_a r_a \times \nabla_a )\hat{H} - \hat{H}(\sum_a r_a \times \nabla_a) = 0 \tag{§26 QM}
 $$
 
-(Might be relevant here to learn how to do this small rotation reasoning leading to this condition. See §9 Vol 1 for steps.)
+(Might be relevant here to learn how to do this small rotation reasoning leading to this condition. See §9 Vol 1 for steps. Also I believe this is a probem in Kotkin & Serbo *Collection of Problems in Classical Mechanics* in the ch. on angular momentum. This is important because this means that you definitely need to know how to do it to pass the modern Landau exam in CM.)
 
 And this quantity we call the angular momentum. Now that we have some slight understanding to why AM shows up, let's proceed more concretely. 
 
 
-In the second (revised) edition 1965 of Vol. 3 A course in theoretical physics, §82 part of the ch. The Diatomic molecule, there is an eerily similar problem to what Landau actually does in this paper. The problem is stated as follows: 
+In the second (revised) edition 1965 of Vol. 3 in *A course in theoretical physics*, §82 part of the ch. The Diatomic molecule, there is an eerily similar problem to what Landau actually does in this paper. The problem is stated as follows: 
 
 "**Determine the angular part of the wave function for a diatomic molecule with zero spin (F. Reiche 1926)**"
 
-Now, funnily enough, since Landau wrote this paper in 1926, I don't think the concept of "spin" existed, and secondly the paper by Schrodinger wasn't released or not known at the time. So at this junction, we have the possibility to treat the problem in two different ways! And even more strangely, in the physical copy of Vol. 3 I have, the 3rd edition, the first problem for §82 is not the above but something completely different, it is about determining the accuracy of the approximation which gives the separation of the electrons and nuclear motions in the diatomic molecule. Clearly a super interesting problem as well and relevant to this paper.
+But this is solved in a completely different way than what he did in this paper. So at this junction, we have the possibility to treat the problem in two different ways! And even more strangely, in the physical copy of Vol. 3 (3rd edition) that I have, the first problem for §82 is not the above but something completely different, it is about determining the accuracy of the approximation which gives the separation of the electrons and nuclear motions in the diatomic molecule. I have no idea why they changed this. 
 
 
 Moving to the 2nd page of the paper, Landau starts out by switching to spherical coordinates, by denoting $\vec{R} = (R, \theta, \phi)$ we now need to express the operators of angular momentum of this form. 
