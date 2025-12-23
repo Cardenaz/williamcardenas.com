@@ -36,6 +36,6 @@ If you do not provide definitions, if you do not *define* your terms, then how c
 
 > *To conclude, I think that there is only one way to science—or to philosophy, for that matter: to meet a problem, to see its beauty and fall in love with it; to get married to it, and to live with it happily, till death do ye part—unless you should meet another and even more fascinating problem, or unless, indeed, you should obtain a solution.*
 
-There is no scientific method but there is only one way to science? You denied the existence of a method, even though we have methods of scientific inquiry, and then you state a method of inquiry, equating it to a marriage vowel, and claiming this is the **only** way. 
+There is no scientific method but there is only one way to science? You denied the existence of a method, even though we have methods of scientific inquiry, and then you state a method of inquiry, equating it to a marriage vow, and claiming this is the **only** way. 
 
 Now in *truth*, almost every sentence in the preface is questionable, Popper has one of the most horrifying epistemologies in the history of philosophy, it does not matter what resource or benefit of the doubt I give him, I will never understand him. 

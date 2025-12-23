@@ -20,12 +20,18 @@
   />
 
   
-  <title>Nuclear Engineering - William Cárdenas</title>
+  <title>§115 charge density - William Cárdenas</title>
 
   
   <meta name="theme-color" />
 
-  <meta name="description" content="" />
+  <meta name="description" content="This section deals with the derivation of the current density for charges particles in a magnetic field.
+Why do we begin with:
+$$
+\delta H = -(1/c) \int \vec{j} \cdot \vec{A} dV \ ?
+$$
+Because the Lagrangian for a charged particle in a magnetic field is $L = \frac{1}{2}m\dot{x}^2 &#43; q \dot{x} \cdot A - q \phi$.
+Why does the Lagrangian look like that? What is the perceptual base of this expression?" />
   <meta name="author" content="William Cárdenas" /><link rel="preload stylesheet" as="style" href="http://localhost:62785/main.min.css" />
 
   
@@ -161,18 +167,55 @@
       class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
     ><article>
   <header class="mb-14">
-    <h1 class="my-0! pb-2.5">Nuclear Engineering</h1><div class="text-xs antialiased opacity-60"><time>Nov 8, 2025</time></div></header>
+    <h1 class="my-0! pb-2.5">§115 charge density</h1><div class="text-xs antialiased opacity-60"><time>Dec 11, 2025</time></div></header>
 
-  <section></section>
+  <section><p>This section deals with the derivation of the current density for charges particles in a magnetic field.</p>
+<p>Why do we begin with:</p>
+<p>$$
+\delta H = -(1/c) \int \vec{j} \cdot \vec{A} dV \ ?
+$$</p>
+<p>Because the Lagrangian for a charged particle in a magnetic field is $L = \frac{1}{2}m\dot{x}^2 + q \dot{x} \cdot A - q \phi$.</p>
+<p>Why does the Lagrangian look like that? What is the perceptual base of this expression?</p>
+<p>Starting from E &amp; M:</p>
+<p>$$
+E = - \nabla \phi - \frac{\partial A}{\partial t},  B = \vec{\nabla} \times \vec{A}
+$$</p>
+<p>The perceptual base is the following: we do not &ldquo;see&rdquo; electric or magnetic fields, but we do see forces on charges. From experiment we know that magnetic fields are closed loops, they do not have a beginning or end, i.e., there is no net difference of field lines at any point on the loop. Mathematically this translates to the statement: $\vec{\nabla} \cdot \vec{B} = 0$. I would think this is why we sometimes say that a vector field $F$ is <em>solenoidal</em> in a domain $D$ if $div \ F = 0$ in $D$. From the standard vector differential identities we know that $\nabla \cdot (\nabla \times F) = 0$, or in words, &ldquo;the divergence of a curl is zero.&rdquo; We can then express the magnetic field vector as a curl of some arbitrary vector, $\vec{B} = \nabla \times A$.</p>
+<p>Ok so we understand the magnetic field expression but what about E? Well, the first thing we know is that, experimentally, a changing magnetic field produces electric fields. The second thing is that these electric fields circulate around the magnetic loop. What is meant by circulate? Think of being dragged along the massive rotating ring in the scene called &ldquo;the Maelstrom&rdquo; in <em>Pirates of the Caribbean: At World&rsquo;s End</em>, you are the electric field in this case. That clears it up right? The field is circulating = the field has curl! A proper guess would then be $\nabla \times E \propto \frac{\partial B}{\partial t}$. Now since Faraday observed that the induced current flows in a direction that opposes the magnetic change we conclude $\nabla \times E = - \frac{\partial B}{\partial t}$ because otherwise energy conservation would be in distress.</p>
+<p>$$
+\nabla \times E = -\nabla \times \frac{\partial A}{\partial t}
+$$
+$$
+\nabla \times (E + \frac{\partial A}{\partial t}) = 0
+$$
+And again we make use of a standard vector identity when the curl grad is zero $\nabla \times (\nabla \phi) = 0$:
+$$
+E + \frac{\partial A}{\partial t} = -\nabla \phi \to E = -\nabla \phi - \frac{\partial A}{\partial t}
+$$</p>
+<p>(a minus sign for the $\nabla \phi$ is chosen because the e-field points from high to low.)</p>
+<p>Now going back to our Lagrangian, we know that the EOM must be
+$$
+m\ddot{x} = q(E +  \dot{x} \times B)
+$$</p>
+<p>We can deduce quickly that the potential due to the electric field needs to be $q \phi$, then since the magnetic force depends on velocity, the potential needs some expression that depends on $\dot{x}$.</p>
+<p>Since we are varying the system by its magnetic/electric part, $\delta H = -\delta L$.</p>
+<p>In classical theory the Hamiltonian becomes:
+$$
+H = \frac{1}{2m}(\vec{p}-\frac{e}{c} \vec{A})^2 + e \phi
+$$</p>
+<p>and when we transition to QM we replace the $\vec{p}$ with $-i\hbar \nabla = \hat{p}$:</p>
+<p>$$</p>
+<p>$$</p>
+</section>
 
   <nav
     class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
-  ><a class="ltr:pr-3 rtl:pl-3" href="http://localhost:62785/posts/aristotle/"
-      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>To demand a proof of everything argues want of education</span></a
+  ><a class="ltr:pr-3 rtl:pl-3" href="http://localhost:62785/posts/genusofam/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>The Genus of Angular Momentum</span></a
     ><a
       class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
-      href="http://localhost:62785/posts/observing-the-facts-of-reality/"
-      ><span>Observing the Facts of Reality</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+      href="http://localhost:62785/posts/popper/"
+      ><span>Realism and The Aim of Science - Preface 1956</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
     ></nav></article></main>
     <script>
 window.MathJax = {
