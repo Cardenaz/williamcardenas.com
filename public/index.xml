@@ -2,94 +2,122 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>William Cárdenas</title>
-    <link>http://localhost:62785/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on William Cárdenas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 20:19:35 +0100</lastBuildDate>
-    <atom:link href="http://localhost:62785/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Feb 2026 13:57:14 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualizing PES and nano sandwiches</title>
+      <link>http://localhost:1313/posts/visualizingpes/</link>
+      <pubDate>Sun, 22 Feb 2026 13:57:14 +0100</pubDate>
+      <guid>http://localhost:1313/posts/visualizingpes/</guid>
+      <description>&lt;h3 id=&#34;pes&#34;&gt;PES&lt;/h3&gt;&#xA;&lt;p&gt;PES is one of few times we read off SP directly.&lt;/p&gt;&#xA;&lt;p&gt;A metal substrate, often Au, with chiral molecules adsorbed i.e. attached to the surface.&lt;/p&gt;&#xA;&lt;p&gt;Light (UV/X photons) hits the sample and frees electrons like:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/test.png&#34; alt=&#34;Landua page&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;the runaway electrons enter some analyzer then gets accelerated and scattered off a gold-foil to a Mott-detector with a left/right counter giving us a readout of SP. [Attach drawing soon]&lt;/p&gt;&#xA;&lt;h3 id=&#34;2-terminal-transport&#34;&gt;2-Terminal transport&lt;/h3&gt;&#xA;&lt;p&gt;Now let&amp;rsquo;s simplify the two terminal transport experiment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Amar Bose on problem solving</title>
+      <link>http://localhost:1313/posts/amar/</link>
+      <pubDate>Sat, 21 Feb 2026 15:19:01 +0100</pubDate>
+      <guid>http://localhost:1313/posts/amar/</guid>
+      <description>&lt;p&gt;Last few days I have been listening to the late great Amar Bose on general problem solving. In one video he recounts Professor Chu&amp;rsquo;s working relationship with General Dynamics. Chu would have engineers lined up outside his room for months in advance. They would only get 10 minutes with him but always came out of the room relieved. Clearly Amar wanted to figure out what went on in that room so he asked Chu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spin</title>
+      <link>http://localhost:1313/posts/spin/</link>
+      <pubDate>Wed, 18 Feb 2026 19:39:24 +0100</pubDate>
+      <guid>http://localhost:1313/posts/spin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Applying the antifragile framework to a career in energy</title>
+      <link>http://localhost:1313/posts/energy/</link>
+      <pubDate>Tue, 20 Jan 2026 12:41:45 +0100</pubDate>
+      <guid>http://localhost:1313/posts/energy/</guid>
+      <description>&lt;p&gt;Sometimes I find it useful to adopt an entirely different mental model than what I normally do.&lt;/p&gt;&#xA;&lt;p&gt;My question is:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Suppose you have decent physics skills, how do you apply them to solve problems in the energy sector?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;My knee-jerk answer without thinking would be, go nuclear. It&amp;rsquo;s &lt;em&gt;the&lt;/em&gt; safest reliable energy source, and depending on the rationality of european governments and our ability to &lt;em&gt;de-criminalize&lt;/em&gt; nuclear, will be the dominant future energy stack. So it sort of makes sense to learn everything about nuclear science and engineering. Right?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Genus of Angular Momentum</title>
-      <link>http://localhost:62785/posts/genusofam/</link>
+      <link>http://localhost:1313/posts/genusofam/</link>
       <pubDate>Fri, 12 Dec 2025 20:19:35 +0100</pubDate>
-      <guid>http://localhost:62785/posts/genusofam/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;What is the genus of angular momentum?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;We want a definition on the form of:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Angular momentum is a X with the differentia Y.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;But it is not self-evident to me what exactly it should be.&lt;/p&gt;&#xA;&lt;p&gt;We know that it is a physical quantity, but this might be too wide of a category.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Suggestion 1: Angular momentum is a physical quantity that describes rotational motion.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This can&amp;rsquo;t be proper since, e.g., define $L = r \times v$, and that would also describe rotational motion but not be angular momentum.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/genusofam/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;What is the genus of angular momentum?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;We want a definition on the form of:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Angular momentum is a X with the differentia Y.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;But it is not self-evident to me what exactly it should be.&lt;/p&gt;&#xA;&lt;p&gt;We know that it is a physical quantity, but this might be too wide of a category.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Suggestion 1: Angular momentum is a physical quantity that describes rotational motion.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This can&amp;rsquo;t be proper since, e.g., define $L = r \times v$, and that would also describe rotational motion but not be angular momentum. So the definition is missing an inertial quantity.&lt;/p&gt;</description>
     </item>
     <item>
       <title>§115 charge density</title>
-      <link>http://localhost:62785/posts/115/</link>
+      <link>http://localhost:1313/posts/115/</link>
       <pubDate>Thu, 11 Dec 2025 16:38:45 +0100</pubDate>
-      <guid>http://localhost:62785/posts/115/</guid>
+      <guid>http://localhost:1313/posts/115/</guid>
       <description>&lt;p&gt;This section deals with the derivation of the current density for charges particles in a magnetic field.&lt;/p&gt;&#xA;&lt;p&gt;Why do we begin with:&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\delta H = -(1/c) \int \vec{j} \cdot \vec{A} dV \ ?&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;Because the Lagrangian for a charged particle in a magnetic field is $L = \frac{1}{2}m\dot{x}^2 + q \dot{x} \cdot A - q \phi$.&lt;/p&gt;&#xA;&lt;p&gt;Why does the Lagrangian look like that? What is the perceptual base of this expression?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Realism and The Aim of Science - Preface 1956</title>
-      <link>http://localhost:62785/posts/popper/</link>
+      <link>http://localhost:1313/posts/popper/</link>
       <pubDate>Thu, 27 Nov 2025 20:34:08 +0100</pubDate>
-      <guid>http://localhost:62785/posts/popper/</guid>
+      <guid>http://localhost:1313/posts/popper/</guid>
       <description>&lt;p&gt;The following is an expedition to the preface to Karl Popper&amp;rsquo;s &lt;em&gt;Realism and The Aim of Science&lt;/em&gt;. The preface deals with &amp;ldquo;the non-existence of scientific method.&amp;rdquo; It is just so surprising and as in many cases with post Kantians, way worse than one can first imagine since you can&amp;rsquo;t read a single page without your head exploding with questions.&lt;/p&gt;&#xA;&lt;p&gt;The preface starts out with:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;As a rule, I begin my lectures on Scientific Method by telling my students that scientific method does not exist.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Landau - Mechanics Vol 1 - Problem 3</title>
-      <link>http://localhost:62785/posts/mechanics-problem3/</link>
+      <link>http://localhost:1313/posts/mechanics-problem3/</link>
       <pubDate>Mon, 17 Nov 2025 22:45:47 +0100</pubDate>
-      <guid>http://localhost:62785/posts/mechanics-problem3/</guid>
-      <description>&lt;p&gt;Since I got this problem wrong I thought it would be necessary to write about it for my own sake.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;A simple pendulum of mass $m$ whose point of support moves uniformly on a vertical circle with constant frequency $\gamma$. Find the Lagrangian for the system when placed in a uniform gravitational field (acceleration g).&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:62785/images/problem.png&#34; alt=&#34;Landua&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;First of all, what is meant by &amp;ldquo;vertical circle&amp;rdquo;? A &amp;ldquo;vertical circle&amp;rdquo; is a circle that lies in the plane, where the motion is perpendicular to the ground. Contrast this with a horizontal circle, where instead the motion would be parallell to the ground.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/mechanics-problem3/</guid>
+      <description>&lt;p&gt;Since I got this problem wrong I thought it would be necessary to write about it for my own sake.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;A simple pendulum of mass $m$ whose point of support moves uniformly on a vertical circle with constant frequency $\gamma$. Find the Lagrangian for the system when placed in a uniform gravitational field (acceleration g).&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/problem.png&#34; alt=&#34;Landua&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;First of all, what is meant by &amp;ldquo;vertical circle&amp;rdquo;? A &amp;ldquo;vertical circle&amp;rdquo; is a circle that lies in the plane, where the motion is perpendicular to the ground. Contrast this with a horizontal circle, where instead the motion would be parallell to the ground.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What&#39;s in Hume&#39;s universe?</title>
-      <link>http://localhost:62785/posts/hume/</link>
+      <link>http://localhost:1313/posts/hume/</link>
       <pubDate>Tue, 11 Nov 2025 23:56:54 +0100</pubDate>
-      <guid>http://localhost:62785/posts/hume/</guid>
+      <guid>http://localhost:1313/posts/hume/</guid>
       <description>&lt;p&gt;A bundle of impressions. Impressions of what? Nothing. Experiences experienced by whom? Nobody.&lt;/p&gt;</description>
     </item>
     <item>
       <title>To demand a proof of everything argues want of education</title>
-      <link>http://localhost:62785/posts/aristotle/</link>
+      <link>http://localhost:1313/posts/aristotle/</link>
       <pubDate>Tue, 11 Nov 2025 23:54:47 +0100</pubDate>
-      <guid>http://localhost:62785/posts/aristotle/</guid>
+      <guid>http://localhost:1313/posts/aristotle/</guid>
       <description></description>
     </item>
     <item>
       <title>Nuclear Engineering</title>
-      <link>http://localhost:62785/posts/nuclear-engineering/</link>
+      <link>http://localhost:1313/posts/nuclear-engineering/</link>
       <pubDate>Sat, 08 Nov 2025 10:25:34 +0100</pubDate>
-      <guid>http://localhost:62785/posts/nuclear-engineering/</guid>
+      <guid>http://localhost:1313/posts/nuclear-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Observing the Facts of Reality</title>
-      <link>http://localhost:62785/posts/observing-the-facts-of-reality/</link>
+      <link>http://localhost:1313/posts/observing-the-facts-of-reality/</link>
       <pubDate>Sat, 01 Nov 2025 18:40:32 +0100</pubDate>
-      <guid>http://localhost:62785/posts/observing-the-facts-of-reality/</guid>
+      <guid>http://localhost:1313/posts/observing-the-facts-of-reality/</guid>
       <description></description>
     </item>
     <item>
       <title>Misperception</title>
-      <link>http://localhost:62785/posts/misperception/</link>
+      <link>http://localhost:1313/posts/misperception/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:21 +0100</pubDate>
-      <guid>http://localhost:62785/posts/misperception/</guid>
+      <guid>http://localhost:1313/posts/misperception/</guid>
       <description>&lt;p&gt;Misperception is misinterpretation.&lt;/p&gt;&#xA;&lt;p&gt;I can &amp;ldquo;see&amp;rdquo; that my eyes don&amp;rsquo;t work.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thales to Dewey - Application to St. Augustine</title>
-      <link>http://localhost:62785/posts/thales-to-dewey/</link>
+      <link>http://localhost:1313/posts/thales-to-dewey/</link>
       <pubDate>Mon, 27 Oct 2025 19:42:21 +0100</pubDate>
-      <guid>http://localhost:62785/posts/thales-to-dewey/</guid>
-      <description>&lt;p&gt;&lt;em&gt;&amp;ldquo;Do you know that you exist? If he so much hears the question there can be no doubt about the answer.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-can-we-learn-from-st-augustine&#34;&gt;What can we learn from St. Augustine?&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:62785/images/augustine.png&#34; alt=&#34;augustine&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;reason&#34;&gt;Reason&lt;/h4&gt;&#xA;&lt;p&gt;The first good thing about Augustine is that he was &lt;em&gt;not&lt;/em&gt; a skeptic, i.e., he defended the possibility of &lt;em&gt;knowledge&lt;/em&gt;. But what surprised me was that he did not do it solely on logical grounds but on moral ones. What does that mean? For Augustine, &amp;ldquo;happiness&amp;rdquo; seems to be the goal, and since the skeptic by his own construction is someone who searches without any possibility of discovery, he cannot be happy. In fact, we would say that he is rather silly. In other words, the skeptic sets himself up for inevitable failure since his tool of survival (reason) leads nowhere.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/thales-to-dewey/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&amp;ldquo;Do you know that you exist? If he so much hears the question there can be no doubt about the answer.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-can-we-learn-from-st-augustine&#34;&gt;What can we learn from St. Augustine?&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/augustine.png&#34; alt=&#34;augustine&#34;&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;reason&#34;&gt;Reason&lt;/h4&gt;&#xA;&lt;p&gt;The first good thing about Augustine is that he was &lt;em&gt;not&lt;/em&gt; a skeptic, i.e., he defended the possibility of &lt;em&gt;knowledge&lt;/em&gt;. But what surprised me was that he did not do it solely on logical grounds but on moral ones. What does that mean? For Augustine, &amp;ldquo;happiness&amp;rdquo; seems to be the goal, and since the skeptic by his own construction is someone who searches without any possibility of discovery, he cannot be happy. In fact, we would say that he is rather silly. In other words, the skeptic sets himself up for inevitable failure since his tool of survival (reason) leads nowhere.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Landau and the dictatorship of the representation invariants</title>
-      <link>http://localhost:62785/posts/landau/</link>
+      <link>http://localhost:1313/posts/landau/</link>
       <pubDate>Sun, 26 Oct 2025 21:00:43 +0100</pubDate>
-      <guid>http://localhost:62785/posts/landau/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Strip away degrees of freedom, align with symmetry and achieve the dictatorship of the representation invariants.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was attempting to recreate this paper by hand &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:62785/images/first-page.png&#34; alt=&#34;Landua page&#34;&gt;&#xA;(courtesy: Collected Papers of Landau)&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip; and I remembered a recent article &lt;a href=&#34;https://arxiv.org/pdf/2503.04778&#34;&gt;https://arxiv.org/pdf/2503.04778&lt;/a&gt; on the specific method of Landau, and just was curious to test their hypothesis.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The paper &amp;ldquo;ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES&amp;rdquo; was written right after matrix mechanics. Spectroscopy of diatomic molecules had a well developed empirical band theory but needed a proper foundation in QM.&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/landau/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Strip away degrees of freedom, align with symmetry and achieve the dictatorship of the representation invariants.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was attempting to recreate this paper by hand &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/first-page.png&#34; alt=&#34;Landua page&#34;&gt;&#xA;(courtesy: Collected Papers of Landau)&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip; and I remembered a recent article &lt;a href=&#34;https://arxiv.org/pdf/2503.04778&#34;&gt;https://arxiv.org/pdf/2503.04778&lt;/a&gt; on the specific method of Landau, and just was curious to test their hypothesis.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The paper &amp;ldquo;ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES&amp;rdquo; was written right after matrix mechanics. Spectroscopy of diatomic molecules had a well developed empirical band theory but needed a proper foundation in QM.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mobiustransformations in Hamiltonian Mechanics</title>
-      <link>http://localhost:62785/posts/mobius/</link>
+      <link>http://localhost:1313/posts/mobius/</link>
       <pubDate>Sun, 26 Oct 2025 20:19:32 +0100</pubDate>
-      <guid>http://localhost:62785/posts/mobius/</guid>
+      <guid>http://localhost:1313/posts/mobius/</guid>
       <description>&lt;p&gt;At a lecture on Hamliton-Jacobi method for solving EOM, specifically where there is some periodic motion and we want to flatten it to a constant horizontal line in phase space, I wondered if we equivalently could do it with a tool from complex analysis.&lt;/p&gt;&#xA;&lt;p&gt;Phase space is equipped with a symplectic 2-form $\omega = dq \wedge dp$ which has to be preserved if we want a valid canonical transformation. So the question naturally arises, under what conditions do Mobius transforms preserve this symplectic structure if at all?&lt;/p&gt;</description>
     </item>
   </channel>

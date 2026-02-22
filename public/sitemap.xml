@@ -2,50 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:62785/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-02-22T13:57:14+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/visualizingpes/</loc>
+    <lastmod>2026-02-22T13:57:14+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-02-22T13:57:14+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/amar/</loc>
+    <lastmod>2026-02-21T15:19:01+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/spin/</loc>
+    <lastmod>2026-02-18T19:39:24+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/energy/</loc>
+    <lastmod>2026-01-20T12:41:45+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/genusofam/</loc>
     <lastmod>2025-12-12T20:19:35+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:62785/posts/genusofam/</loc>
-    <lastmod>2025-12-12T20:19:35+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:62785/</loc>
-    <lastmod>2025-12-12T20:19:35+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:62785/posts/115/</loc>
+    <loc>http://localhost:1313/posts/115/</loc>
     <lastmod>2025-12-11T16:38:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:62785/posts/popper/</loc>
+    <loc>http://localhost:1313/posts/popper/</loc>
     <lastmod>2025-11-27T20:34:08+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:62785/posts/mechanics-problem3/</loc>
+    <loc>http://localhost:1313/posts/mechanics-problem3/</loc>
     <lastmod>2025-11-17T22:45:47+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:62785/posts/hume/</loc>
+    <loc>http://localhost:1313/posts/hume/</loc>
     <lastmod>2025-11-11T23:56:54+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:62785/posts/aristotle/</loc>
+    <loc>http://localhost:1313/posts/aristotle/</loc>
     <lastmod>2025-11-11T23:54:47+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:62785/posts/nuclear-engineering/</loc>
+    <loc>http://localhost:1313/posts/nuclear-engineering/</loc>
     <lastmod>2025-11-08T10:25:34+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:62785/posts/observing-the-facts-of-reality/</loc>
+    <loc>http://localhost:1313/posts/observing-the-facts-of-reality/</loc>
     <lastmod>2025-11-01T18:40:32+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:62785/posts/misperception/</loc>
+    <loc>http://localhost:1313/posts/misperception/</loc>
     <lastmod>2025-10-28T00:00:21+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:62785/posts/thales-to-dewey/</loc>
+    <loc>http://localhost:1313/posts/thales-to-dewey/</loc>
     <lastmod>2025-10-27T19:42:21+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:62785/posts/landau/</loc>
+    <loc>http://localhost:1313/posts/landau/</loc>
     <lastmod>2025-10-26T21:00:43+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:62785/posts/mobius/</loc>
+    <loc>http://localhost:1313/posts/mobius/</loc>
     <lastmod>2025-10-26T20:19:32+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:62785/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:62785/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

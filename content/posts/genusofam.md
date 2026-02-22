@@ -16,4 +16,4 @@ We know that it is a physical quantity, but this might be too wide of a category
 
 > Suggestion 1: Angular momentum is a physical quantity that describes rotational motion. 
 
-This can't be proper since, e.g., define $L = r \times v$, and that would also describe rotational motion but not be angular momentum. 
+This can't be proper since, e.g., define $L = r \times v$, and that would also describe rotational motion but not be angular momentum. So the definition is missing an inertial quantity. 
