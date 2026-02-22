@@ -9,18 +9,18 @@
     <lastBuildDate>Sun, 22 Feb 2026 13:57:14 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Visualizing PES</title>
+      <title>Visualizing PES and nano sandwiches</title>
       <link>http://localhost:1313/posts/visualizingpes/</link>
       <pubDate>Sun, 22 Feb 2026 13:57:14 +0100</pubDate>
       <guid>http://localhost:1313/posts/visualizingpes/</guid>
-      <description>&lt;p&gt;PES is one of few times we read off SP directly.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/test.png&#34; alt=&#34;Landua page&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;pes&#34;&gt;PES&lt;/h3&gt;&#xA;&lt;p&gt;PES is one of few times we read off SP directly.&lt;/p&gt;&#xA;&lt;p&gt;A metal substrate, often Au, with chiral molecules adsorbed i.e. attached to the surface.&lt;/p&gt;&#xA;&lt;p&gt;Light (UV/X photons) hits the sample and frees electrons like:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/test.png&#34; alt=&#34;Landua page&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;the runaway electrons enter some analyzer then gets accelerated and scattered off a gold-foil to a Mott-detector with a left/right counter giving us a readout of SP. [Attach drawing soon]&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/pes2.png&#34; alt=&#34;Landua page&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Amar Bose on problem solving</title>
       <link>http://localhost:1313/posts/amar/</link>
       <pubDate>Sat, 21 Feb 2026 15:19:01 +0100</pubDate>
       <guid>http://localhost:1313/posts/amar/</guid>
-      <description>&lt;p&gt;Last few days I have been listening to the late great Amar Bose on general problem solving. At one point during his youth at MIT, he saw engineers line up outside on of the faculty members office. Each person would be in the room for 5-10 minutes and then come out relieved. Amar thought that he had to know what was going on in that room.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I decided I was going to make electromagnetics my field. He had come over, I guess, from Taiwan and was a student. And he made that decision, and he said after I made the decision, every problem that came to me in electromagnetics, either was assigned to me or was something that I looked at, I followed a strict discipline. I looked at the problem. I then divided the problem into the smaller problem. Looked at that problem and divided it into a smaller one yet, until I got to the smallest problem, the most elementary problem that I could make out of this seemingly complex problem. And then I decided I would understand that thoroughly, and that involved usually simple mathematics.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Last few days I have been listening to the late great Amar Bose on general problem solving. In one video he recounts Professor Chu&amp;rsquo;s working relationship with General Dynamics. Chu would have engineers lined up outside his room for months in advance. They would only get 10 minutes with him but always came out of the room relieved. Clearly Amar wanted to figure out what went on in that room so he asked Chu.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spin</title>

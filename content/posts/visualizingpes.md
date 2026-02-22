@@ -17,7 +17,9 @@ Light (UV/X photons) hits the sample and frees electrons like:
 
 ![Landua page](/images/test.png)
 
-the runaway electrons enter some analyzer then gets accelerated and scattered off a gold-foil to a Mott-detector with a left/right counter giving us a readout of SP. [Attach drawing soon]
+the runaway electrons enter some analyzer then gets accelerated and scattered off a gold-foil to a Mott-detector with a left/right counter giving us a readout of SP. 
+
+![Landua page](/images/pes2.png)
 
 ### 2-Terminal transport
 Now let's simplify the two terminal transport experiment. 
