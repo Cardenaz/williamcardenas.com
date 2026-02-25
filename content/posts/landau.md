@@ -15,8 +15,6 @@ I was attempting to recreate this paper by hand ...
 
 **The paper "ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES" was written right after matrix mechanics. Spectroscopy of diatomic molecules had a well developed empirical band theory but needed a proper foundation in QM.**
 
-Now, is this paper the first sign of his geometric reductionism? 
-
 
 ### Step 1 - Separate the Hamiltonian in COM + relative coordinates
 
@@ -37,7 +35,9 @@ And instead of having $\frac{M_1R_1 + M_2 R_2}{M_1+M_2}$, let's introduce
 $$
 R_N = \frac{M_1R_1 + M_2 R_2}{M_1+M_2} \tag{4}
 $$ 
-which is the center of mass frame of the nuclei. The expression $\vec{r} = r - R_N$ is then the electron position measured from the nuclear COM. I would prefer if he denoted it with $\vec{r}_i$ and $r_i$, indicating that we take the position of each electron and subtract the distance from the nucleus. And especially strange since we have the summation sign for the mass but not for the radius vectors. 
+which is the center of mass frame of the nuclei. The expression $\vec{r} = r - R_N$ is then the electron position measured from the nuclear COM. I would prefer if he denoted it with $\vec{r}_i$ and $r_i$, indicating that we take the position of each electron and subtract the distance from the nucleus. And especially strange since we have the summation sign for the mass but not for the radius vectors.
+
+*(Just a note, in LL1 "§13 The reduced mass" you do get some basic training in two-body-problem algebra.)*
 
 To grasp equation (1) further, imagine a diatomic molecule consisisting of flourine. Each flourine atom has 9 electrons which means that $F_2$ has 18 total electrons to think about. Then the transformation $\vec{r}_i = r_i - R_N$ has to be done for every electron, i.e., we get 18 relative coordinates. What this does is to change the reference frame from the lab frame to the nuclei's center of mass frame for every electron.
 
@@ -274,7 +274,7 @@ The first question to ask now is why is Landau introducing angular momentum?
 
 I think the answer is the following: For a system in an external field we cannot claim that the angular momentum is conserved. But if there is a symmetry, e.g., centrally symmetric field or as in this problem an "axially" symmetric field (later explain what that means) then the component of angular momentum along the axis of symmetry is conserved. But how do we even show that the corresponding conserved quantity is precisely this? 
 
-Think about the Hamiltonian of a *closed* system. By *closed* system we mean "a system of particles which interact with one another but with no other bodies." (See definition from §5. Lagrangian for a system of particles Mechanics Vol 1.) You might object, "well, isn't the diatomic molecule a closed system? And if that is the case then why are we bothering with axial symmetry?" Yes, the diatomic molecule is a closed system. But we switched to relative coordinates and in this case only the projection along the axis of the molecule is constant. Remember, Landau teaches us that the angular momentum of a system depends on the point with respect to which it is defined. Why? Because angular momentum involves the radius vector. And for a rigid body, the most fitting point is the COM of the body. 
+Think about the Hamiltonian of a *closed* system. By *closed* system we mean "a system of particles which interact with one another but with no other bodies." (See the definition in LL1 "§5. Lagrangian for a system of particles.") You might object, "well, isn't the diatomic molecule a closed system? And if that is the case then why are we bothering with axial symmetry?" Yes, the diatomic molecule is a closed system. But we switched to relative coordinates and in this case only the projection along the axis of the molecule is constant. Remember, Landau teaches us that the angular momentum of a system depends on the point with respect to which it is defined. Why? Because angular momentum involves the radius vector. And for a rigid body, the most fitting point is the COM of the body. 
 
 The reason why we understand that it has to be angular momentum that becomes conserved instead of any other quantity is the following: Due to the isotropy of space we have a condition for an infinitely small rotation that eventually becomes: 
 
@@ -282,7 +282,7 @@ $$
 (\sum_a r_a \times \nabla_a )\hat{H} - \hat{H}(\sum_a r_a \times \nabla_a) = 0 \tag{§26 QM}
 $$
 
-(Might be relevant here to learn how to do this small rotation reasoning leading to this condition. See §9 Vol 1 for steps. Also I believe this is a probem in Kotkin & Serbo *Collection of Problems in Classical Mechanics* in the ch. on angular momentum. This is important because this means that you definitely need to know how to do it to pass the modern Landau exam in CM.)
+(Might be relevant here to learn how to do this small rotation reasoning leading to this condition, e.g., check LL1 "§9" for steps. Also, I believe this is a problem in Kotkin & Serbo *Collection of Problems in Classical Mechanics* in the ch. on angular momentum. **This is important to know if you want to pass the modern Landau exam in CM.**)
 
 And this quantity we call the angular momentum. Now that we have some slight understanding to why AM shows up, let's proceed more concretely. 
 
