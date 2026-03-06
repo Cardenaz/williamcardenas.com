@@ -13,10 +13,10 @@ I was attempting to recreate this paper by hand ...
 
 ... and I remembered a recent article https://arxiv.org/pdf/2503.04778 on the specific method of Landau, and just was curious to test their hypothesis. 
 
-**The paper "ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES" was written right after matrix mechanics. Spectroscopy of diatomic molecules had a well developed empirical band theory but needed a proper foundation in QM.**
+**The Landau paper was written right after matrix mechanics.  Spectroscopy of diatomic molecules had a well developed empirical band theory but needed a proper foundation in QM.**
 
 
-### Step 1 - Separate the Hamiltonian in COM + relative coordinates
+### Шаг 1 - Separate the гамильтониан in COM + relative coordinates
 
 
 Letting capital letters denote the nuclei and small letters the electrons, we are given: 
@@ -115,7 +115,7 @@ $$
 
 
 
-#### Computing the momenta
+#### Computing the импульсы
 
 From the text we can deduce $P_1 = -i \hbar \nabla_{R_1}, P_2 = -i \hbar \nabla_{R_2},$ and $p_r = -i \hbar \nabla_r$. Properly expressed in new variables: 
 
@@ -267,7 +267,7 @@ Which is the exact result presented in equation (3) in the paper.
 
 The $\gamma$ term is corresponding to the motion of the molecule's COM. However, the spectra does not depend on how the molecule is moving through space, and the motion is separable from internal motion, i.e., $\Psi = \Psi(r,R) \cdot \Psi_{CM}(C)$ and this is why Landau says that "of no further interest here, we ignore it." Nothing would change if we kept the term around for the next step, but recognizing this allows us to not carry around unnecessary baggage.
 
-### Step 2 - Describe the molecule's rotation
+### Шаг 2 - Describe the вращение молекулы
 
 The first question to ask now is why is Landau introducing angular momentum? 
 

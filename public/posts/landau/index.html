@@ -30,7 +30,7 @@ I was attempting to recreate this paper by hand &hellip;
 
 (courtesy: Collected Papers of Landau)
 &hellip; and I remembered a recent article https://arxiv.org/pdf/2503.04778 on the specific method of Landau, and just was curious to test their hypothesis.
-The paper &ldquo;ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES&rdquo; was written right after matrix mechanics. Spectroscopy of diatomic molecules had a well developed empirical band theory but needed a proper foundation in QM." />
+The Landau paper was written right after matrix mechanics.  Spectroscopy of diatomic molecules had a well developed empirical band theory but needed a proper foundation in QM." />
   <meta name="author" content="William Cárdenas" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
 
   
@@ -173,8 +173,8 @@ The paper &ldquo;ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES&rdquo; was w
 <p><img src="/images/first-page.png" alt="Landua page">
 (courtesy: Collected Papers of Landau)</p>
 <p>&hellip; and I remembered a recent article <a href="https://arxiv.org/pdf/2503.04778">https://arxiv.org/pdf/2503.04778</a> on the specific method of Landau, and just was curious to test their hypothesis.</p>
-<p><strong>The paper &ldquo;ON THE THEORY OF THE SPECTRA OF DIATOMIC MOLECULES&rdquo; was written right after matrix mechanics. Spectroscopy of diatomic molecules had a well developed empirical band theory but needed a proper foundation in QM.</strong></p>
-<h3 id="step-1---separate-the-hamiltonian-in-com--relative-coordinates">Step 1 - Separate the Hamiltonian in COM + relative coordinates</h3>
+<p><strong>The Landau paper was written right after matrix mechanics.  Spectroscopy of diatomic molecules had a well developed empirical band theory but needed a proper foundation in QM.</strong></p>
+<h3 id="шаг-1---separate-the-гамильтониан-in-com--relative-coordinates">Шаг 1 - Separate the гамильтониан in COM + relative coordinates</h3>
 <p>Letting capital letters denote the nuclei and small letters the electrons, we are given:</p>
 <p>$$
 \vec{r} = r - \frac{M_1R_1 + M_2 R_2}{M_1+M_2} \tag{1}
@@ -240,7 +240,7 @@ $$
 = \frac{M_2}{\sum m + M_1 + M_2} \nabla_C - \sum \frac{M_2}{M_1+M_2}\nabla_{\vec{r}} +  \nabla_{R}
 $$</p>
 <p>(Note to self: when $\nabla_{\vec{r}}$ appears in $\nabla_{R_{1,2}}$)</p>
-<h4 id="computing-the-momenta">Computing the momenta</h4>
+<h4 id="computing-the-импульсы">Computing the импульсы</h4>
 <p>From the text we can deduce $P_1 = -i \hbar \nabla_{R_1}, P_2 = -i \hbar \nabla_{R_2},$ and $p_r = -i \hbar \nabla_r$. Properly expressed in new variables:</p>
 <p>$$
 p_i = -i\hbar (\nabla_{\vec{r}} + \alpha \nabla_C)
@@ -353,7 +353,7 @@ $$</p>
 $$</p>
 <p>Which is the exact result presented in equation (3) in the paper.</p>
 <p>The $\gamma$ term is corresponding to the motion of the molecule&rsquo;s COM. However, the spectra does not depend on how the molecule is moving through space, and the motion is separable from internal motion, i.e., $\Psi = \Psi(r,R) \cdot \Psi_{CM}(C)$ and this is why Landau says that &ldquo;of no further interest here, we ignore it.&rdquo; Nothing would change if we kept the term around for the next step, but recognizing this allows us to not carry around unnecessary baggage.</p>
-<h3 id="step-2---describe-the-molecules-rotation">Step 2 - Describe the molecule&rsquo;s rotation</h3>
+<h3 id="шаг-2---describe-the-вращение-молекулы">Шаг 2 - Describe the вращение молекулы</h3>
 <p>The first question to ask now is why is Landau introducing angular momentum?</p>
 <p>I think the answer is the following: For a system in an external field we cannot claim that the angular momentum is conserved. But if there is a symmetry, e.g., centrally symmetric field or as in this problem an &ldquo;axially&rdquo; symmetric field (later explain what that means) then the component of angular momentum along the axis of symmetry is conserved. But how do we even show that the corresponding conserved quantity is precisely this?</p>
 <p>Think about the Hamiltonian of a <em>closed</em> system. By <em>closed</em> system we mean &ldquo;a system of particles which interact with one another but with no other bodies.&rdquo; (See the definition in LL1 &ldquo;§5. Lagrangian for a system of particles.&rdquo;) You might object, &ldquo;well, isn&rsquo;t the diatomic molecule a closed system? And if that is the case then why are we bothering with axial symmetry?&rdquo; Yes, the diatomic molecule is a closed system. But we switched to relative coordinates and in this case only the projection along the axis of the molecule is constant. Remember, Landau teaches us that the angular momentum of a system depends on the point with respect to which it is defined. Why? Because angular momentum involves the radius vector. And for a rigid body, the most fitting point is the COM of the body.</p>
